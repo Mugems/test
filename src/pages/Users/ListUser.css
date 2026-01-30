@@ -1,0 +1,493 @@
+/* ViewUser Component Styles */
+
+.list-user-page-content {
+  padding: 0;
+  margin: 0px 0px;
+}
+
+.list-user-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.list-user-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.list-user-reorder-info {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-top: 4px;
+}
+
+.list-user-line-name {
+  color: #1677ff;
+  font-weight: 500;
+}
+
+.list-user-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list-user-switch-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #595959;
+}
+
+.list-user-reorder-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.list-user-reorder-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.list-user-table-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 16px 0;
+}
+
+.list-user-scrollable-div {
+  height: 500px;
+  width: auto;
+  overflow: auto;
+  /* padding: 10px; */
+  margin-top: 10px;
+}
+
+.list-user-search-results {
+  padding: 12px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-image-mask-info {
+  display: none !important;
+}
+
+.list-user-search-label {
+  font-size: 14px;
+  /* color: #8c8c8c; */
+}
+
+.list-user-search-query {
+  font-weight: 600;
+  color: #1677ff;
+  font-size: 14px;
+}
+
+.list-user-results-count {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #52c41a;
+  font-weight: 500;
+}
+
+.list-user-line-group {
+  margin-bottom: 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.list-user-line-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px 10px 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.list-user-line-title-container {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.list-user-line-title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 8px;
+}
+
+.list-user-badge .ant-badge-count {
+  background-color: #52c41a !important;
+  font-weight: 500;
+  box-shadow: 0 0 0 1px #fff;
+  border-radius: 10px;
+}
+
+.list-user-badge-search .ant-badge-count {
+  background-color: #1677ff !important;
+}
+
+.list-user-index-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  background-color: #1890ff;
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.list-user-list-container {
+  max-height: 400px;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.list-user-list {
+  background: #fafafa;
+  margin: 0;
+}
+
+.list-user-list-item-wrapper {
+  border-bottom: 2px solid #f0f0f0;
+  padding: 0;
+  background: #fff;
+}
+
+.list-user-list-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  cursor: default;
+  /* padding: 16px 5px 16px 5px; */
+}
+
+.list-user-list-item-expanded {
+  background: #f9f9f9;
+}
+
+.list-user-avatar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+ 
+}
+
+.ant-list-item-meta-description{
+  margin-left: 8px;
+  font-size: 20px  !important;
+} 
+
+.list-user-item-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 28px;
+}
+
+.list-user-item-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.list-user-item-title {
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+}
+
+.list-user-ellipsis-icon {
+  font-size: 22px;
+  color: #999;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.list-user-ellipsis-icon:hover {
+  color: #1890ff;
+}
+
+.list-user-collapse-content {
+  margin-top: 6px;
+  padding:0;
+  background: #f9f9f9;
+}
+
+.list-user-skeleton-container {
+  text-align: center;
+  padding: 16px;
+}
+
+.list-user-divider-container {
+  margin: 16px 0;
+}
+
+.list-user-divider-star {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list-user-divider-text {
+  color: #595959;
+  font-size: 14px;
+}
+
+.list-user-divider-line-name {
+  font-weight: 600;
+  color: #262626;
+}
+
+.list-user-no-data {
+  text-align: center;
+  padding: 40px;
+  color: #8c8c8c;
+}
+
+.list-user-float-button {
+  right: 24px;
+  bottom: 24px;
+  position: fixed;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.list-user-search-modal-title {
+  text-align: center;
+  width: 100%;
+}
+
+.list-user-search-modal-label {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.list-user-search-input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+.list-user-badge-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 4px 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+
+
+  .list-user-badge-search-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 4px 12px;
+    border: 1px solid #1677ff;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #1677ff;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+  .list-user-index-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding:0;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 20px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+
+  .ant-list .ant-list-item .ant-list-item-meta {
+    padding: 0px;
+  }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .list-user-line-header {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .list-user-line-title {
+    font-size: 22px;
+  }
+
+  .list-user-list-item {
+    padding: 10px 12px;
+  }
+/* 
+  .list-user-avatar-container {
+   
+    margin-right: 10px;
+  } */
+
+  .list-user-avatar-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .list-user-collapse-content {
+    padding: 0 12px 16px 57px;
+  }
+  
+   .list-user-scrollable-div {
+    height: calc(100vh - 250px);
+  }
+
+}
+
+
+/* .ant-list-item-meta{
+padding: 5px;
+} */
+
+
+
+
+/* Add this to your global CSS file (e.g., index.css or App.css) */
+
+/* Disable text selection across the entire app */
+* {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  -webkit-touch-callout: none; /* iOS Safari */
+}
+
+/* Allow selection for all Ant Design input components */
+.ant-input,
+.ant-input-number-input,
+.ant-input-number,
+.ant-input-textarea,
+.ant-input-affix-wrapper,
+.ant-select-selection-search-input,
+.ant-picker-input > input,
+.ant-mentions,
+.ant-mentions-textarea,
+input,
+textarea,
+[contenteditable="true"] {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+  -webkit-touch-callout: default !important;
+}
+
+/* Allow selection in Ant Design form items */
+.ant-form-item-control-input input,
+.ant-form-item-control-input textarea {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+
+/* Allow selection in Ant Design modals and drawers for input fields */
+.ant-modal .ant-input,
+.ant-modal .ant-input-number-input,
+.ant-drawer .ant-input,
+.ant-drawer .ant-input-number-input {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+.ant-modal .ant-modal-content{
+  padding: 10px;
+}
+/* Prevent text selection on double-click */
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Additional prevention for specific elements */
+img,
+button,
+a,
+svg,
+.ant-btn,
+.ant-menu,
+.ant-menu-item,
+.ant-layout-header,
+.ant-layout-footer,
+.ant-layout-sider {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  pointer-events: auto;
+}
+
+/* Ensure Ant Design Table cells are not selectable unless specifically needed */
+.ant-table-cell,
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+/* Prevent selection on Ant Design buttons and menu items */
+.ant-btn,
+.ant-menu-item,
+.ant-menu-submenu-title,
+.ant-dropdown-menu-item {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+/* Prevent dragging of Ant Design images and icons */
+.ant-image img,
+.anticon {
+  -webkit-user-drag: none;
+  pointer-events: auto;
+}

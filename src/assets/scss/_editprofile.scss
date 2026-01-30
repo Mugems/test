@@ -1,0 +1,20 @@
+.edit-profile-card{
+    border: 1px solid rgb(218,220,224) !important;
+    padding: 10px;
+    border-radius: 8px;
+}
+.custom-file-input {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .custom-file-label::after {
+    content: 'Browse';
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }

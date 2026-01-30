@@ -1,0 +1,1 @@
+export const mobileRegExp = /^\d{10}$/;

@@ -1,0 +1,39 @@
+/* AddInvestment Component Styles */
+
+.add-investment-page-content {
+  margin-right: 10px;
+  margin-left: -10px;
+  max-width: 100%;
+}
+
+.add-investment-container-fluid {
+  /* margin-top: -100px; */
+  padding: 0;
+}
+
+.add-investment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-investment-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.add-investment-form {
+  padding: 0;
+  margin-right: -20px;
+  margin-bottom: 30px;
+}
+
+.add-investment-form-container {
+  padding: 5px;
+}
+
+.add-investment-divider {
+  border-top: 2px solid #d9d9d9;
+}

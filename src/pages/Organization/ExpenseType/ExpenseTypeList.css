@@ -1,0 +1,367 @@
+/* ExpenseTypeList Component Styles */
+
+.expense-type-list-page-content {
+  padding: 0;
+  margin: 0px 0px;
+}
+
+.expense-type-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.expense-type-list-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.expense-type-list-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.expense-type-list-scrollable-div {
+  height: 500px;
+  width: auto;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.expense-type-list-search-results {
+  padding: 12px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-image-mask-info {
+  display: none !important;
+}
+.expense-type-list-search-label {
+  font-size: 14px;
+  color: #8c8c8c;
+}
+
+.expense-type-list-search-query {
+  font-weight: 600;
+  color: #1677ff;
+  font-size: 14px;
+}
+
+.expense-type-list-results-count {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #52c41a;
+  font-weight: 500;
+}
+
+/* Line Group Styles */
+.expense-type-list-line-group {
+  margin-bottom: 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.expense-type-list-line-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px 10px 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e8e8e8;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+
+
+.expense-type-list-line-title-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.expense-type-list-line-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #262626;
+}
+.expense-type-list-badge-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 4px 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+
+
+  .expense-type-list-badge-search-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 4px 12px;
+    border: 1px solid #1677ff;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #1677ff;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+   .expense-type-list-badge{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    height: 38px;
+    padding:0;
+    border: 1px solid #d9d9d9;
+    border-radius:19px;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 22px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+    margin-right: 20px;
+ 
+   }
+  .expense-type-list-index-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding:0;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+/* List Container */
+.expense-type-list-list-container {
+  max-height: 400px;
+  overflow: auto;
+  /* padding: 5px; */
+  margin: 0;
+}
+
+.expense-type-list-list {
+  background: #fafafa;
+  margin: 0;
+}
+
+.expense-type-list-item-wrapper {
+  border-bottom: 2px solid #f0f0f0;
+  padding: 0;
+  background: #fff;
+}
+
+.expense-type-list-item {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  background: #fff;
+  cursor: pointer;
+  padding: 12px 20px;
+  transition: background-color 0.2s ease;
+  gap: 12px;
+}
+
+.expense-type-list-item:hover {
+  background: #f5f5f5;
+}
+
+.expense-type-list-item-expanded {
+  background: #f9f9f9;
+}
+
+.expense-type-list-avatar-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  /* margin-right: 12px; */
+  /* margin-left: 15px; */
+}
+
+
+
+.expense-type-list-item-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  cursor: pointer;
+  padding: 0;
+  margin-left: 8px;
+}
+
+.expense-type-list-item-title {
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+}
+
+.expense-type-list-ellipsis-icon {
+  font-size: 22px;
+  color: #999;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  margin-right: 27px;
+}
+
+.expense-type-list-ellipsis-icon:hover {
+  color: #1890ff;
+  background-color: #f0f5ff;
+}
+
+/* Expense Details Content */
+.expense-type-list-collapse-content {
+  margin-top: 6px;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+/* Skeleton */
+.expense-type-list-skeleton-container {
+  text-align: center;
+  padding: 16px;
+}
+
+/* Divider */
+.expense-type-list-divider-container {
+  margin: 16px 0;
+}
+
+.expense-type-list-divider-star {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.expense-type-list-divider-text {
+  color: #595959;
+  font-size: 14px;
+}
+
+.expense-type-list-divider-line-name {
+  font-weight: 600;
+  color: #262626;
+}
+
+/* No Data */
+.expense-type-list-no-data {
+  text-align: center;
+  padding: 40px;
+  color: #8c8c8c;
+}
+
+/* Float Button */
+.expense-type-list-float-button {
+  right: 24px;
+  bottom: 24px;
+  position: fixed;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Modal */
+.expense-type-list-modal-title {
+  text-align: center;
+  width: 100%;
+}
+
+.expense-type-list-modal-label {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.expense-type-list-search-input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+
+/* List Item Overrides */
+.expense-type-list-item-wrapper .ant-list-item {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .expense-type-list-title{
+    font-size: 24px;
+  }
+  .expense-type-list-line-header {
+    font-size: 22px;
+    padding: 10px 5px 10px 5px;
+  }
+  .expense-type-list-badge {
+    margin-right: 5px;
+  }
+
+  .expense-type-list-line-title {
+    font-size: 22px;
+  }
+
+  .expense-type-list-item {
+    padding: 10px 12px;
+  }
+
+  .expense-type-list-avatar-container {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+
+  .expense-type-list-avatar-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .expense-type-list-collapse-content {
+    padding: 0 12px 16px 57px;
+  }
+}
+
+/* Tablet Responsiveness */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .expense-type-list-scrollable-div {
+    height: 450px;
+  }
+
+  .expense-type-list-list-container {
+    max-height: 350px;
+  }
+}

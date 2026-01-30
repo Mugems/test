@@ -1,0 +1,423 @@
+/* InvestmentList Component Styles */
+
+.investment-list-page-content {
+  padding: 0;
+  margin: 0px 0px;
+}
+
+.investment-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.investment-list-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.investment-list-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.investment-list-modal-title {
+  text-align: center;
+  width: 100%;
+}
+
+.investment-list-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.investment-list-modal-label {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.investment-list-date-filter-container {
+  padding: 10px 5px;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+}
+
+.investment-list-date-filter-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #595959;
+}
+
+.investment-list-date-range-container {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.investment-list-date-input {
+  flex: 1;
+  padding: 4px 4px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.investment-list-date-separator {
+  color: #8c8c8c;
+}
+
+.investment-list-search-input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+
+.investment-list-scrollable-div {
+  height: 500px;
+  width: auto;
+  overflow: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.investment-list-search-results {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ant-image-mask-info {
+  display: none !important;
+}
+
+.investment-list-search-results-content {
+  flex: 1;
+}
+
+.investment-list-search-label {
+  font-size: 14px;
+  font-weight: 400;
+  /* color: #595959; */
+  margin-right: 8px;
+}
+
+.investment-list-search-criteria {
+  font-size: 14px;
+  color: #1677ff;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+
+
+.investment-list-line-group {
+  margin-bottom: 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.investment-list-line-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   padding: 10px 5px 10px 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e8e8e8;
+  cursor: default;
+}
+
+.investment-list-line-title-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 5px;
+}
+
+
+.investment-list-line-title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #262626;
+}
+
+.investment-list-badge .ant-badge-count {
+  background-color: #52c41a !important;
+  font-weight: 500;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+.investment-list-badge-search .ant-badge-count {
+  background-color: #1677ff !important;
+  font-weight: 500;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+.investment-list-container {
+  max-height: 400px;
+  overflow: auto;
+  padding: 0;
+}
+
+.investment-list-skeleton {
+  text-align: center;
+  padding: 16px;
+}
+
+.investment-list-divider {
+  margin: 16px 0;
+}
+
+.investment-list-divider-star {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.investment-list-divider-text {
+  color: #595959;
+  font-size: 14px;
+}
+
+.investment-list-divider-line-name {
+  font-weight: 600;
+  color: #262626;
+}
+
+.investment-list {
+  background: #fafafa;
+  margin: 0;
+}
+
+.investment-list-item-wrapper {
+  border-bottom: 2px solid #f0f0f0;
+  padding: 0;
+  background: #fff;
+}
+
+.investment-list-item {
+  background: #fff;
+  cursor: default;
+  padding: 12px 16px;
+}
+
+.investment-list-item-expanded {
+  background: #f9f9f9;
+}
+
+.investment-list-avatar-container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* .investment-list-avatar-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+} */
+
+.investment-list-item-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  cursor: pointer;
+  /* padding: 6px 0; */
+   margin-left: 10px;
+   margin-right: 30px;
+}
+
+.investment-list-item-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.investment-list-ellipsis-icon {
+  font-size: 22px;
+  color: #999;
+  cursor: pointer;
+}
+
+.investment-list-collapse-content {
+  margin-top: 6px;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.investment-list-no-data {
+  text-align: center;
+  padding: 40px;
+  color: #8c8c8c;
+}
+
+.investment-list-no-search {
+  text-align: center;
+  padding: 60px 20px;
+  color: #8c8c8c;
+  border-radius: 8px;
+  margin: 20px 10px;
+}
+
+.investment-list-no-search-icon {
+  font-size: 48px;
+  color: #d9d9d9;
+  margin-bottom: 16px;
+}
+
+.investment-list-no-search-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.investment-list-no-search-text {
+  font-size: 14px;
+}
+
+.investment-list-float-button {
+  right: 24px;
+  bottom: 24px;
+  position: fixed;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ant-notification-notice-success {
+  background-color: #e6fffb !important;
+  /* border-left: 6px solid #13c2c2 !important; */
+}
+
+/* Error Notification */
+.ant-notification-notice-error {
+  background: #fff1f0 !important;
+  /* border-left: 6px solid #ff4d4f !important; */
+}
+
+/* Warning Notification */
+.ant-notification-notice-warning {
+  background: #fffbe6 !important;
+  /* border-left: 6px solid #faad14 !important; */
+}
+.investment-list-badge-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 4px 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+
+
+  .investment-list-badge-search-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 4px 12px;
+    border: 1px solid #1677ff;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #1677ff;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+  .investment-list-badge{
+     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    height: 38px;
+    padding:0;
+    border: 1px solid #d9d9d9;
+    border-radius: 19px;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 22px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s; 
+    margin-right: 20px;
+  }
+  
+  .investment-list-index-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding:0;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+  }
+  /* .investment-list-results-badge .ant-badge-count {
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding:0;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background-color: #52c41a !important;
+    
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 0.2s;
+    
+} */
+/* 
+
+} */
+
+ .ant-list .ant-list-item .ant-list-item-meta {
+  padding: 5px;
+ }
+
+ @media (max-width: 768px) {
+   .investment-list-scrollable-div {
+    height: calc(100vh - 250px);
+    padding: 0px;
+    margin: 0;
+  }
+  .investment-list-badge{
+    margin-right: 10px;
+  }
+  .investment-list-line-header{
+    padding: 10px 0px 10px 0px;
+  }
+}

@@ -1,0 +1,280 @@
+/* ======================
+   Form Transition Wrapper
+   ====================== */
+
+.form-transition-wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+}
+
+.form-slide {
+  width: 100%;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-fill-mode: both;
+}
+
+/* Slide Left Animation (1 → 2) */
+.form-transition-wrapper.slide-left .form-slide {
+  animation-name: slideOutLeft;
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.form-transition-wrapper:not(.slide-left):not(.slide-right) .form-slide {
+  animation-name: slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Slide Right Animation (2 → 1) */
+.form-transition-wrapper.slide-right .form-slide {
+  animation-name: slideOutRight;
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* When coming from right (back button) */
+.form-transition-wrapper.slide-right:not(.slide-left) .form-slide {
+  animation-name: slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* ======================
+   Page Layout Styles
+   ====================== */
+
+.add-customer-page-content {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.add-customer-container-fluid {
+  max-width: 1200px;
+  margin: 0 ;
+}
+
+/* .add-customer-header {
+  background-color: white;
+  padding: 20px 24px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+} */
+
+.add-customer-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #262626;
+}
+
+/* ======================
+   Form Container Styles
+   ====================== */
+
+.add-customer-form {
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.add-customer-form-container {
+  padding: 32px 24px;
+}
+
+/* ======================
+   Form Field Spacing
+   ====================== */
+
+.mb-2 {
+  margin-bottom: 0;
+}
+
+.row.mb-2 + .row.mb-2 {
+  margin-top: 8px;
+}
+
+/* ======================
+   Custom Input Styles
+   ====================== */
+
+.add-customer-form .ant-input,
+.add-customer-form .ant-input-number,
+.add-customer-form .ant-select-selector,
+.add-customer-form .ant-input-textarea {
+  border-radius: 6px;
+}
+
+.add-customer-form .ant-form-item-label > label {
+  font-weight: 500;
+  color: #262626;
+}
+
+.add-customer-form .ant-input:focus,
+.add-customer-form .ant-input-number:focus,
+.add-customer-form .ant-select-focused .ant-select-selector {
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.1);
+}
+
+/* ======================
+   Divider Styling
+   ====================== */
+
+.add-customer-divider {
+  margin: 32px 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+/* ======================
+   Button Styles
+   ====================== */
+
+.add-customer-form .ant-btn {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.add-customer-form .ant-btn-primary {
+  height: 40px;
+  padding: 0 32px;
+}
+
+.add-customer-form .ant-btn-default {
+  height: 40px;
+  padding: 0 32px;
+}
+
+.add-customer-form .ant-btn-dangerous {
+  height: 40px;
+  padding: 0 32px;
+}
+
+/* ======================
+   Responsive Design
+   ====================== */
+
+@media (max-width: 768px) {
+
+  .add-customer-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .add-customer-form-container {
+    padding:0px;
+  }
+
+  .form-transition-wrapper {
+    min-height: 400px;
+  }
+
+  /* Stack buttons on mobile */
+  /* .text-center .ant-space {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  } */
+
+  /* .text-center .ant-space .ant-btn {
+    width: 100%;
+  } */
+}
+
+/* ======================
+   Animation Performance
+   ====================== */
+
+.form-slide {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ======================
+   Success Screen Styles
+   ====================== */
+
+.form-slide > div {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.custom-tabs .ant-tabs-tab {
+    transition: all 0.3s ease;
+}
+
+.custom-tabs .ant-tabs-tab-active {
+    background-color: #1677ff !important;
+    border-color: #1677ff !important;
+}
+
+.custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #ffffff !important;
+}
+
+.custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn span {
+    color: #ffffff !important;
+}
+
+.custom-tabs .ant-tabs-tab:hover {
+    background-color: #e8f5e9;
+}
+
+.custom-tabs .ant-tabs-tab-active:hover {
+    background-color: #1677ff !important;
+}
+
+.ant-tabs-ink-bar {
+  background-color: #1677ff; /* your green */
+  height: 3px;
+}

@@ -1,0 +1,1498 @@
+/* ======================
+   User-Selectable Font Sizes
+   ====================== */
+
+
+   .add-customer-title,
+.add-area-title,
+.add-branch-title,
+.expense-transaction-title,
+.add-investment-title,
+.add-line-title,
+.add-user-title,
+.view-area-title,
+.view-line-title,
+.list-branch-title,
+.view-customer-title,
+.expense-list-title,
+.expense-type-list-title,
+.investment-list-title,
+.list-user-title {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/* Default/Medium Size */
+.add-customer-title,
+.add-area-title,
+.add-branch-title,
+.expense-transaction-title,
+.add-investment-title,
+.add-line-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.add-customer-form .ant-form-item-label > label,
+.add-customer-form .ant-input,
+.add-customer-form .ant-input-number,
+.add-customer-form .ant-select-selector,
+.add-customer-form .ant-input-textarea,
+.add-area-form .ant-form-item-label > label,
+.add-area-form .ant-input,
+.add-area-form .ant-select-selector,
+.add-branch-form .ant-form-item-label > label,
+.add-branch-form .ant-input,
+.add-branch-form .ant-select-selector,
+.add-branch-form .ant-input-textarea,
+.expense-transaction-form .ant-form-item-label > label,
+.expense-transaction-form .ant-input,
+.expense-transaction-form .ant-select-selector,
+.add-investment-form .ant-form-item-label > label,
+.add-investment-form .ant-input,
+.add-investment-form .ant-select-selector,
+.add-line-form .ant-form-item-label > label,
+.add-line-form .ant-input,
+.add-line-form .ant-select-selector {
+  font-size: 16px;
+}
+
+/* Large Size - Apply 'font-size-large' class to body or root container */
+.font-size-large .add-customer-title,
+.font-size-large .add-area-title,
+.font-size-large .add-branch-title,
+.font-size-large .expense-transaction-title,
+.font-size-large .add-investment-title,
+.font-size-large .add-line-title {
+  font-size: 26px;
+}
+
+.font-size-large .add-customer-form .ant-form-item-label > label,
+.font-size-large .add-customer-form .ant-input,
+.font-size-large .add-customer-form .ant-input-number,
+.font-size-large .add-customer-form .ant-select-selector,
+.font-size-large .add-customer-form .ant-input-textarea,
+.font-size-large .add-area-form .ant-form-item-label > label,
+.font-size-large .add-area-form .ant-input,
+.font-size-large .add-area-form .ant-select-selector,
+.font-size-large .add-branch-form .ant-form-item-label > label,
+.font-size-large .add-branch-form .ant-input,
+.font-size-large .add-branch-form .ant-select-selector,
+.font-size-large .add-branch-form .ant-input-textarea,
+.font-size-large .expense-transaction-form .ant-form-item-label > label,
+.font-size-large .expense-transaction-form .ant-input,
+.font-size-large .expense-transaction-form .ant-select-selector,
+.font-size-large .add-investment-form .ant-form-item-label > label,
+.font-size-large .add-investment-form .ant-input,
+.font-size-large .add-investment-form .ant-select-selector,
+.font-size-large .add-line-form .ant-form-item-label > label,
+.font-size-large .add-line-form .ant-input,
+.font-size-large .add-line-form .ant-select-selector {
+  font-size: 18px;
+}
+
+/* Extra Large Size - Apply 'font-size-xlarge' class to body or root container */
+.font-size-xlarge .add-customer-title,
+.font-size-xlarge .add-area-title,
+.font-size-xlarge .add-branch-title,
+.font-size-xlarge .expense-transaction-title,
+.font-size-xlarge .add-investment-title,
+.font-size-xlarge .add-line-title {
+  font-size: 28px;
+}
+
+.font-size-xlarge .add-customer-form .ant-form-item-label > label,
+.font-size-xlarge .add-customer-form .ant-input,
+.font-size-xlarge .add-customer-form .ant-input-number,
+.font-size-xlarge .add-customer-form .ant-select-selector,
+.font-size-xlarge .add-customer-form .ant-input-textarea,
+.font-size-xlarge .add-area-form .ant-form-item-label > label,
+.font-size-xlarge .add-area-form .ant-input,
+.font-size-xlarge .add-area-form .ant-select-selector,
+.font-size-xlarge .add-branch-form .ant-form-item-label > label,
+.font-size-xlarge .add-branch-form .ant-input,
+.font-size-xlarge .add-branch-form .ant-select-selector,
+.font-size-xlarge .add-branch-form .ant-input-textarea,
+.font-size-xlarge .expense-transaction-form .ant-form-item-label > label,
+.font-size-xlarge .expense-transaction-form .ant-input,
+.font-size-xlarge .expense-transaction-form .ant-select-selector,
+.font-size-xlarge .add-investment-form .ant-form-item-label > label,
+.font-size-xlarge .add-investment-form .ant-input,
+.font-size-xlarge .add-investment-form .ant-select-selector,
+.font-size-xlarge .add-line-form .ant-form-item-label > label,
+.font-size-xlarge .add-line-form .ant-input,
+.font-size-xlarge .add-line-form .ant-select-selector {
+  font-size: 20px;
+}
+
+/* ======================
+   Menu Icon & Font Sizes
+   ====================== */
+/* ======================
+   Menu Icon & Font Sizes
+   ====================== */
+
+/* Default/Medium - Main menu items (Home, Settings, Reset Password, Customer) */
+/* Icons: 19px, Text: 15px */
+
+/* Target icons in main menu items */
+.ant-menu-item:not(.ant-menu-submenu .ant-menu-item) .ant-menu-item-icon,
+.ant-menu-item:not(.ant-menu-submenu .ant-menu-item) .ant-menu-item-icon img,
+.ant-menu-item:not(.ant-menu-submenu .ant-menu-item) > span:first-child img,
+.ant-menu-submenu-title .ant-menu-item-icon,
+.ant-menu-submenu-title .ant-menu-item-icon img,
+.ant-menu-submenu-title > span:first-child img {
+  width: 19px !important;
+  height: 19px !important;
+  font-size: 19px !important;
+}
+
+/* Text in main menu items */
+.ant-menu-item:not(.ant-menu-submenu .ant-menu-item),
+.ant-menu-submenu-title {
+  font-size: 15px !important;
+}
+
+/* Submenu items (Organization, Branch, Line, etc.) */
+/* Icons: 18px, Text: 14px */
+.ant-menu-submenu .ant-menu-item .ant-menu-item-icon,
+.ant-menu-submenu .ant-menu-item .ant-menu-item-icon img,
+.ant-menu-submenu .ant-menu-item > span:first-child img {
+  width: 18px !important;
+  height: 18px !important;
+  font-size: 18px !important;
+}
+
+.ant-menu-submenu .ant-menu-item {
+  font-size: 14px !important;
+}
+
+/* Large - Main menu items */
+/* Icons: 21px, Text: 16px */
+.font-size-large .ant-menu-item:not(.ant-menu-submenu .ant-menu-item) .ant-menu-item-icon,
+.font-size-large .ant-menu-item:not(.ant-menu-submenu .ant-menu-item) .ant-menu-item-icon img,
+.font-size-large .ant-menu-item:not(.ant-menu-submenu .ant-menu-item) > span:first-child img,
+.font-size-large .ant-menu-submenu-title .ant-menu-item-icon,
+.font-size-large .ant-menu-submenu-title .ant-menu-item-icon img,
+.font-size-large .ant-menu-submenu-title > span:first-child img {
+  width: 21px !important;
+  height: 21px !important;
+  font-size: 21px !important;
+}
+
+.font-size-large .ant-menu-item:not(.ant-menu-submenu .ant-menu-item),
+.font-size-large .ant-menu-submenu-title {
+  font-size: 16px !important;
+}
+
+/* Large - Submenu items */
+/* Icons: 20px, Text: 15px */
+.font-size-large .ant-menu-submenu .ant-menu-item .ant-menu-item-icon,
+.font-size-large .ant-menu-submenu .ant-menu-item .ant-menu-item-icon img,
+.font-size-large .ant-menu-submenu .ant-menu-item > span:first-child img {
+  width: 20px !important;
+  height: 20px !important;
+  font-size: 20px !important;
+}
+
+.font-size-large .ant-menu-submenu .ant-menu-item {
+  font-size: 15px !important;
+}
+
+/* Extra Large - Main menu items */
+/* Icons: 23px, Text: 17px */
+.font-size-xlarge .ant-menu-item:not(.ant-menu-submenu .ant-menu-item) .ant-menu-item-icon,
+.font-size-xlarge .ant-menu-item:not(.ant-menu-submenu .ant-menu-item) .ant-menu-item-icon img,
+.font-size-xlarge .ant-menu-item:not(.ant-menu-submenu .ant-menu-item) > span:first-child img,
+.font-size-xlarge .ant-menu-submenu-title .ant-menu-item-icon,
+.font-size-xlarge .ant-menu-submenu-title .ant-menu-item-icon img,
+.font-size-xlarge .ant-menu-submenu-title > span:first-child img {
+  width: 23px !important;
+  height: 23px !important;
+  font-size: 23px !important;
+}
+
+.font-size-xlarge .ant-menu-item:not(.ant-menu-submenu .ant-menu-item),
+.font-size-xlarge .ant-menu-submenu-title {
+  font-size: 17px !important;
+}
+
+/* Extra Large - Submenu items */
+/* Icons: 22px, Text: 16px */
+.font-size-xlarge .ant-menu-submenu .ant-menu-item .ant-menu-item-icon,
+.font-size-xlarge .ant-menu-submenu .ant-menu-item .ant-menu-item-icon img,
+.font-size-xlarge .ant-menu-submenu .ant-menu-item > span:first-child img {
+  width: 22px !important;
+  height: 22px !important;
+  font-size: 22px !important;
+}
+
+.font-size-xlarge .ant-menu-submenu .ant-menu-item {
+  font-size: 16px !important;
+}
+
+/* Force override for all img elements in menu */
+.ant-menu img {
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+/* ======================
+   Force Menu Image Sizes
+   ====================== */
+
+/* Default */
+.ant-layout-sider .ant-menu img,
+.ant-drawer .ant-menu img {
+  width: 19px !important;
+  height: 19px !important;
+}
+
+.ant-layout-sider .ant-menu-submenu .ant-menu-item img,
+.ant-drawer .ant-menu-submenu .ant-menu-item img {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Large */
+.font-size-large .ant-layout-sider .ant-menu img,
+.font-size-large .ant-drawer .ant-menu img {
+  width: 21px !important;
+  height: 21px !important;
+}
+
+.font-size-large .ant-layout-sider .ant-menu-submenu .ant-menu-item img,
+.font-size-large .ant-drawer .ant-menu-submenu .ant-menu-item img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* Extra Large */
+.font-size-xlarge .ant-layout-sider .ant-menu img,
+.font-size-xlarge .ant-drawer .ant-menu img {
+  width: 23px !important;
+  height: 23px !important;
+}
+
+.font-size-xlarge .ant-layout-sider .ant-menu-submenu .ant-menu-item img,
+.font-size-xlarge .ant-drawer .ant-menu-submenu .ant-menu-item img {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+/* ======================
+   Sidebar Width Adjustments
+   ====================== */
+
+/* Medium (default) - 250px width */
+.ant-layout-sider:not(.ant-layout-sider-collapsed) {
+  width: 250px !important;
+  min-width: 250px !important;
+  max-width: 250px !important;
+}
+
+.ant-layout-sider:not(.ant-layout-sider-collapsed) .ant-menu {
+  min-width: 250px !important;
+  max-width: 250px !important;
+}
+
+/* Large - 270px width */
+.font-size-large .ant-layout-sider:not(.ant-layout-sider-collapsed) {
+  width: 270px !important;
+  min-width: 270px !important;
+  max-width: 270px !important;
+}
+
+.font-size-large .ant-layout-sider:not(.ant-layout-sider-collapsed) .ant-menu,
+.font-size-large .ant-layout-sider:not(.ant-layout-sider-collapsed) .ant-menu-sub {
+  min-width: 270px !important;
+  max-width: 270px !important;
+}
+
+.font-size-large :root {
+  --sidebar-width: 270px !important;
+}
+
+/* Extra Large - 290px width */
+.font-size-xlarge .ant-layout-sider:not(.ant-layout-sider-collapsed) {
+  width: 290px !important;
+  min-width: 290px !important;
+  max-width: 290px !important;
+}
+
+.font-size-xlarge .ant-layout-sider:not(.ant-layout-sider-collapsed) .ant-menu,
+.font-size-xlarge .ant-layout-sider:not(.ant-layout-sider-collapsed) .ant-menu-sub {
+  min-width: 290px !important;
+  max-width: 290px !important;
+}
+
+.font-size-xlarge :root {
+  --sidebar-width: 290px !important;
+}
+
+/* Update CSS variable dynamically */
+.font-size-large {
+  --sidebar-width: 270px;
+}
+
+.font-size-xlarge {
+  --sidebar-width: 290px;
+}
+
+/* ======================
+   Header Icons (Notification, Profile, Menu Toggle)
+   ====================== */
+
+/* Default/Medium - Icons: 20px, Dropdown content: 14px */
+.header-item img,
+.noti-icon img,
+.header-profile-user,
+.ant-btn img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.dropdown-menu .dropdown-item,
+.dropdown-menu-end .dropdown-item {
+  font-size: 14px !important;
+}
+.noti-icon img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* Large */
+.font-size-large .noti-icon img {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+/* Extra Large */
+.font-size-xlarge .noti-icon img {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.dropdown-menu .dropdown-item i,
+.dropdown-menu-end .dropdown-item i {
+  font-size: 14px !important;
+}
+
+/* Profile dropdown specific elements */
+.profile-username {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.profile-branch-info {
+  font-size: 11px;
+  color: #666;
+  margin-top: 1px;
+}
+
+.selected-branch-name {
+  font-size: 11px;
+  color: #1677ff;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* Screen Size Selector */
+.screen-size-selector {
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen-size-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #666;
+  text-align: center;
+}
+
+.screen-size-buttons {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.size-button {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  color: #666;
+  padding: 0;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size-button.active {
+  background: #1890ff;
+  color: #fff;
+  border-color: #1890ff;
+}
+
+.size-button:not(.active):hover {
+  background: #f5f5f5;
+  border-color: #1890ff;
+}
+/* Large - Icons: 22px, Dropdown content: 16px */
+.font-size-large .header-item img,
+.font-size-large .noti-icon img,
+.font-size-large .header-profile-user,
+.font-size-large .ant-btn img {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+.font-size-large .dropdown-menu .dropdown-item,
+.font-size-large .dropdown-menu-end .dropdown-item {
+  font-size: 16px !important;
+}
+
+.font-size-large .dropdown-menu .dropdown-item i,
+.font-size-large .dropdown-menu-end .dropdown-item i {
+  font-size: 16px !important;
+}
+
+.font-size-large .profile-username {
+  font-size: 16px;
+}
+
+.font-size-large .profile-branch-info {
+  font-size: 12px;
+}
+
+.font-size-large .selected-branch-name {
+  font-size: 12px;
+}
+
+.font-size-large .screen-size-label {
+  font-size: 14px;
+}
+
+.font-size-large .size-button {
+  font-size: 12px;
+  padding: 4px 9px;
+  min-width: 30px;
+}
+
+/* Extra Large - Icons: 24px, Dropdown content: 18px */
+.font-size-xlarge .header-item img,
+.font-size-xlarge .noti-icon img,
+.font-size-xlarge .header-profile-user,
+.font-size-xlarge .ant-btn img {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.font-size-xlarge .dropdown-menu .dropdown-item,
+.font-size-xlarge .dropdown-menu-end .dropdown-item {
+  font-size: 18px !important;
+}
+
+.font-size-xlarge .dropdown-menu .dropdown-item i,
+.font-size-xlarge .dropdown-menu-end .dropdown-item i {
+  font-size: 18px !important;
+}
+
+.font-size-xlarge .profile-username {
+  font-size: 18px;
+}
+
+.font-size-xlarge .profile-branch-info {
+  font-size: 13px;
+}
+
+.font-size-xlarge .selected-branch-name {
+  font-size: 13px;
+}
+
+.font-size-xlarge .screen-size-label {
+  font-size: 15px;
+}
+
+.font-size-xlarge .size-button {
+  font-size: 13px;
+  padding: 4px 10px;
+  min-width: 32px;
+}
+
+/* Branch name display in header */
+.font-size-large .main-header > div > div > div > div > span,
+.font-size-large .main-header .ant-btn + div span {
+  font-size: 17px !important;
+}
+
+.font-size-xlarge .main-header > div > div > div > div > span,
+.font-size-xlarge .main-header .ant-btn + div span {
+  font-size: 19px !important;
+}
+
+
+/* ======================
+   Mobile Drawer Sidebar Font Sizes
+   ====================== */
+
+/* Default/Medium Size */
+/* Mobile drawer menu items */
+.ant-drawer .ant-menu-item,
+.ant-drawer .ant-menu-submenu-title {
+  font-size: 15px !important;
+}
+
+/* Mobile drawer menu icons */
+.ant-drawer .ant-menu-item img,
+.ant-drawer .ant-menu-submenu-title img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* Mobile drawer submenu items */
+.ant-drawer .ant-menu-sub .ant-menu-item {
+  font-size: 14px !important;
+}
+
+/* Mobile drawer branch name section */
+.ant-drawer .ant-layout-sider + div > div:last-child {
+  font-size: 13px !important;
+}
+
+.ant-drawer .ant-layout-sider + div > div:last-child > div:first-child {
+  font-size: 10px !important;
+}
+
+.ant-drawer .ant-layout-sider + div > div:last-child > div:last-child {
+  font-size: 13px !important;
+}
+
+/* Large Size */
+/* Mobile drawer menu items */
+.font-size-large .ant-drawer .ant-menu-item,
+.font-size-large .ant-drawer .ant-menu-submenu-title {
+  font-size: 16px !important;
+}
+
+/* Mobile drawer menu icons */
+.font-size-large .ant-drawer .ant-menu-item img,
+.font-size-large .ant-drawer .ant-menu-submenu-title img {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+/* Mobile drawer submenu items */
+.font-size-large .ant-drawer .ant-menu-sub .ant-menu-item {
+  font-size: 15px !important;
+}
+
+/* Mobile drawer branch name section */
+.font-size-large .ant-drawer .ant-layout-sider + div > div:last-child {
+  font-size: 14px !important;
+}
+
+.font-size-large .ant-drawer .ant-layout-sider + div > div:last-child > div:first-child {
+  font-size: 11px !important;
+}
+
+.font-size-large .ant-drawer .ant-layout-sider + div > div:last-child > div:last-child {
+  font-size: 14px !important;
+}
+
+/* Extra Large Size */
+/* Mobile drawer menu items */
+.font-size-xlarge .ant-drawer .ant-menu-item,
+.font-size-xlarge .ant-drawer .ant-menu-submenu-title {
+  font-size: 17px !important;
+}
+
+/* Mobile drawer menu icons */
+.font-size-xlarge .ant-drawer .ant-menu-item img,
+.font-size-xlarge .ant-drawer .ant-menu-submenu-title img {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+/* Mobile drawer submenu items */
+.font-size-xlarge .ant-drawer .ant-menu-sub .ant-menu-item {
+  font-size: 16px !important;
+}
+
+/* Mobile drawer branch name section */
+.font-size-xlarge .ant-drawer .ant-layout-sider + div > div:last-child {
+  font-size: 15px !important;
+}
+
+.font-size-xlarge .ant-drawer .ant-layout-sider + div > div:last-child > div:first-child {
+  font-size: 12px !important;
+}
+
+.font-size-xlarge .ant-drawer .ant-layout-sider + div > div:last-child > div:last-child {
+  font-size: 15px !important;
+}
+
+/* ======================
+   Profile Dropdown Menu Font Sizes
+   ====================== */
+
+/* Default/Medium Size */
+/* Profile dropdown items */
+#page-header-user-dropdown + .dropdown-menu .dropdown-item,
+.dropdown-menu-end .dropdown-item {
+  font-size: 14px !important;
+}
+
+/* Profile dropdown icons */
+#page-header-user-dropdown + .dropdown-menu .dropdown-item i,
+.dropdown-menu-end .dropdown-item i {
+  font-size: 18px !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Profile dropdown user info */
+#page-header-user-dropdown + .dropdown-menu .d-flex.align-items-center .d-inline-block > div:first-child,
+.dropdown-menu-end .d-flex.align-items-center .d-inline-block > div:first-child {
+  font-size: 14px !important;
+}
+
+#page-header-user-dropdown + .dropdown-menu .d-flex.align-items-center .d-inline-block > div:last-child,
+.dropdown-menu-end .d-flex.align-items-center .d-inline-block > div:last-child {
+  font-size: 11px !important;
+}
+
+/* Screen size selector label and buttons */
+.screen-size-selector .screen-size-label {
+  font-size: 12px !important;
+}
+
+.screen-size-selector .size-button {
+  font-size: 12px !important;
+  width: 32px !important;
+  height: 28px !important;
+}
+
+/* Branch name under Change Branch */
+#page-header-user-dropdown + .dropdown-menu .dropdown-item > div > div > div:last-child,
+.dropdown-menu-end .dropdown-item > div > div > div:last-child {
+  font-size: 11px !important;
+}
+
+/* Large Size */
+/* Profile dropdown items */
+.font-size-large #page-header-user-dropdown + .dropdown-menu .dropdown-item,
+.font-size-large .dropdown-menu-end .dropdown-item {
+  font-size: 15px !important;
+}
+
+/* Profile dropdown icons */
+.font-size-large #page-header-user-dropdown + .dropdown-menu .dropdown-item i,
+.font-size-large .dropdown-menu-end .dropdown-item i {
+  font-size: 19px !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* Profile dropdown user info */
+.font-size-large #page-header-user-dropdown + .dropdown-menu .d-flex.align-items-center .d-inline-block > div:first-child,
+.font-size-large .dropdown-menu-end .d-flex.align-items-center .d-inline-block > div:first-child {
+  font-size: 15px !important;
+}
+
+.font-size-large #page-header-user-dropdown + .dropdown-menu .d-flex.align-items-center .d-inline-block > div:last-child,
+.font-size-large .dropdown-menu-end .d-flex.align-items-center .d-inline-block > div:last-child {
+  font-size: 12px !important;
+}
+
+/* Screen size selector label and buttons */
+.font-size-large .screen-size-selector .screen-size-label {
+  font-size: 13px !important;
+}
+
+.font-size-large .screen-size-selector .size-button {
+  font-size: 13px !important;
+  width: 34px !important;
+  height: 30px !important;
+}
+
+/* Branch name under Change Branch */
+.font-size-large #page-header-user-dropdown + .dropdown-menu .dropdown-item > div > div > div:last-child,
+.font-size-large .dropdown-menu-end .dropdown-item > div > div > div:last-child {
+  font-size: 12px !important;
+}
+
+/* Extra Large Size */
+/* Profile dropdown items */
+.font-size-xlarge #page-header-user-dropdown + .dropdown-menu .dropdown-item,
+.font-size-xlarge .dropdown-menu-end .dropdown-item {
+  font-size: 16px !important;
+}
+
+/* Profile dropdown icons */
+.font-size-xlarge #page-header-user-dropdown + .dropdown-menu .dropdown-item i,
+.font-size-xlarge .dropdown-menu-end .dropdown-item i {
+  font-size: 20px !important;
+  width: 22px !important;
+  height: 22px !important;
+}
+
+/* Profile dropdown user info */
+.font-size-xlarge #page-header-user-dropdown + .dropdown-menu .d-flex.align-items-center .d-inline-block > div:first-child,
+.font-size-xlarge .dropdown-menu-end .d-flex.align-items-center .d-inline-block > div:first-child {
+  font-size: 16px !important;
+}
+
+.font-size-xlarge #page-header-user-dropdown + .dropdown-menu .d-flex.align-items-center .d-inline-block > div:last-child,
+.font-size-xlarge .dropdown-menu-end .d-flex.align-items-center .d-inline-block > div:last-child {
+  font-size: 13px !important;
+}
+
+/* Screen size selector label and buttons */
+.font-size-xlarge .screen-size-selector .screen-size-label {
+  font-size: 14px !important;
+}
+
+.font-size-xlarge .screen-size-selector .size-button {
+  font-size: 14px !important;
+  width: 36px !important;
+  height: 32px !important;
+}
+
+/* Branch name under Change Branch */
+.font-size-xlarge #page-header-user-dropdown + .dropdown-menu .dropdown-item > div > div > div:last-child,
+.font-size-xlarge .dropdown-menu-end .dropdown-item > div > div > div:last-child {
+  font-size: 13px !important;
+}
+
+/* ======================
+   Mobile Header Branch Name Font Sizes
+   ====================== */
+
+/* Default/Medium Size - Already set in VerticalLayout.jsx inline styles */
+/* Header branch name: 16px */
+
+/* Large Size */
+.font-size-large .main-header .ant-layout-header > div > div > div {
+  font-size: 17px !important;
+}
+
+/* Extra Large Size */
+.font-size-xlarge .main-header .ant-layout-header > div > div > div {
+  font-size: 18px !important;
+}
+
+
+/* ======================
+   AddUser Form Font Sizes
+   ====================== */
+
+/* Default/Medium Size */
+.add-user-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.add-user-form .ant-form-item-label > label,
+.add-user-form .ant-input,
+.add-user-form .ant-input-number,
+.add-user-form .ant-select-selector,
+.add-user-form .ant-input-textarea {
+  font-size: 16px;
+}
+
+/* Large Size */
+.font-size-large .add-user-title {
+  font-size: 26px;
+}
+
+.font-size-large .add-user-form .ant-form-item-label > label,
+.font-size-large .add-user-form .ant-input,
+.font-size-large .add-user-form .ant-input-number,
+.font-size-large .add-user-form .ant-select-selector,
+.font-size-large .add-user-form .ant-input-textarea {
+  font-size: 18px;
+}
+
+/* Extra Large Size */
+.font-size-xlarge .add-user-title {
+  font-size: 28px;
+}
+
+.font-size-xlarge .add-user-form .ant-form-item-label > label,
+.font-size-xlarge .add-user-form .ant-input,
+.font-size-xlarge .add-user-form .ant-input-number,
+.font-size-xlarge .add-user-form .ant-select-selector,
+.font-size-xlarge .add-user-form .ant-input-textarea {
+  font-size: 20px;
+}
+
+
+
+/* ======================
+   Global Button Font Sizes
+   ====================== */
+
+/* Default/Medium: 16px */
+.ant-btn,
+button,
+.btn {
+  font-size: 16px !important;
+}
+
+/* Large: 17px */
+.font-size-large .ant-btn,
+.font-size-large button,
+.font-size-large .btn {
+  font-size: 17px !important;
+}
+
+/* Extra Large: 18px */
+.font-size-xlarge .ant-btn,
+.font-size-xlarge button,
+.font-size-xlarge .btn {
+  font-size: 18px !important;
+}
+
+/* Specific button types - Ant Design */
+.ant-btn-primary,
+.ant-btn-default,
+.ant-btn-dashed,
+.ant-btn-text,
+.ant-btn-link,
+.ant-btn-ghost,
+.ant-btn-danger {
+  font-size: 16px !important;
+}
+
+.font-size-large .ant-btn-primary,
+.font-size-large .ant-btn-default,
+.font-size-large .ant-btn-dashed,
+.font-size-large .ant-btn-text,
+.font-size-large .ant-btn-link,
+.font-size-large .ant-btn-ghost,
+.font-size-large .ant-btn-danger {
+  font-size: 17px !important;
+}
+
+.font-size-xlarge .ant-btn-primary,
+.font-size-xlarge .ant-btn-default,
+.font-size-xlarge .ant-btn-dashed,
+.font-size-xlarge .ant-btn-text,
+.font-size-xlarge .ant-btn-link,
+.font-size-xlarge .ant-btn-ghost,
+.font-size-xlarge .ant-btn-danger {
+  font-size: 18px !important;
+}
+
+/* Float Button */
+.ant-float-btn,
+.ant-float-btn-body {
+  font-size: 16px !important;
+}
+
+.font-size-large .ant-float-btn,
+.font-size-large .ant-float-btn-body {
+  font-size: 17px !important;
+}
+
+.font-size-xlarge .ant-float-btn,
+.font-size-xlarge .ant-float-btn-body {
+  font-size: 18px !important;
+}
+
+/* Popconfirm buttons */
+.ant-popconfirm .ant-btn {
+  font-size: 16px !important;
+}
+
+.font-size-large .ant-popconfirm .ant-btn {
+  font-size: 17px !important;
+}
+
+.font-size-xlarge .ant-popconfirm .ant-btn {
+  font-size: 18px !important;
+}
+
+/* Modal buttons */
+.ant-modal-footer .ant-btn {
+  font-size: 16px !important;
+}
+
+.font-size-large .ant-modal-footer .ant-btn {
+  font-size: 17px !important;
+}
+
+.font-size-xlarge .ant-modal-footer .ant-btn {
+  font-size: 18px !important;
+}
+
+/* Dropdown menu buttons */
+.ant-dropdown-menu-item,
+.ant-dropdown-menu-submenu-title {
+  font-size: 16px !important;
+}
+
+.font-size-large .ant-dropdown-menu-item,
+.font-size-large .ant-dropdown-menu-submenu-title {
+  font-size: 17px !important;
+}
+
+.font-size-xlarge .ant-dropdown-menu-item,
+.font-size-xlarge .ant-dropdown-menu-submenu-title {
+  font-size: 18px !important;
+}
+
+/* Table action buttons (already covered but ensuring consistency) */
+.view-area-actions button,
+.view-line-actions button,
+.list-branch-actions button,
+.view-customer-actions button,
+.expense-list-actions button,
+.expense-type-list-actions button,
+.investment-list-actions button,
+.list-user-actions button {
+  font-size: 16px !important;
+}
+
+.font-size-large .view-area-actions button,
+.font-size-large .view-line-actions button,
+.font-size-large .list-branch-actions button,
+.font-size-large .view-customer-actions button,
+.font-size-large .expense-list-actions button,
+.font-size-large .expense-type-list-actions button,
+.font-size-large .investment-list-actions button,
+.font-size-large .list-user-actions button {
+  font-size: 17px !important;
+}
+
+.font-size-xlarge .view-area-actions button,
+.font-size-xlarge .view-line-actions button,
+.font-size-xlarge .list-branch-actions button,
+.font-size-xlarge .view-customer-actions button,
+.font-size-xlarge .expense-list-actions button,
+.font-size-xlarge .expense-type-list-actions button,
+.font-size-xlarge .investment-list-actions button,
+.font-size-xlarge .list-user-actions button {
+  font-size: 18px !important;
+}
+
+/* Submit/Cancel buttons in forms */
+.text-center button,
+.ant-form-item button {
+  font-size: 16px !important;
+}
+
+.font-size-large .text-center button,
+.font-size-large .ant-form-item button {
+  font-size: 17px !important;
+}
+
+.font-size-xlarge .text-center button,
+.font-size-xlarge .ant-form-item button {
+  font-size: 18px !important;
+}
+
+
+/* ==========================================
+   STICKY HEADER STYLES FOR ALL FORMS
+   ========================================== */
+
+/* Make the page content wrapper position relative */
+.page-content,
+.add-area-page-content,
+.add-line-page-content,
+.add-investment-page-content,
+.expense-transaction-page-content,
+.add-customer-page-content,
+.add-user-page-content {
+  position: relative;
+  height: 100%;
+  overflow: visible;
+}
+
+/* Container fluid should not overflow */
+.container-fluid,
+.add-area-container-fluid,
+.add-line-container-fluid,
+.add-investment-container-fluid,
+.expense-transaction-container-fluid,
+.add-customer-container-fluid,
+.add-user-container-fluid {
+  position: relative;
+  height: 100%;
+}
+
+/* ==========================================
+   STICKY HEADER FOR ALL FORMS
+   ========================================== */
+
+/* Header Wrapper - Make it sticky */
+.add-area-header,
+.add-line-header,
+.add-investment-header,
+.expense-transaction-header,
+.add-customer-header,
+.add-user-header,
+.add-branch-title {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #fff;                
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.view-area-line-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.list-branch-accordion-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.view-customer-area-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.expense-list-line-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.expense-type-list-line-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.investment-list-line-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.view-line-branch-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block;
+}
+
+.list-user-line-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block;
+} 
+
+/* Title styles */
+.add-area-title,
+.add-line-title,
+.add-investment-title,
+.expense-transaction-title,
+.add-customer-title,
+.add-user-title,
+.add-branch-title {
+  margin: 0 !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  color: #1f1f1f;
+}
+
+/* ==========================================
+   DEBUG HELPER (Remove in production)
+   ========================================== */
+
+/* Uncomment to visualize sticky elements during development
+.add-area-header,
+.add-line-header,
+.add-investment-header,
+.expense-transaction-header,
+.add-customer-header,
+.add-user-header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+*/
+/* ======================
+   Usage Instructions
+   ====================== 
+   
+   Apply one of these classes to your root container or Layout wrapper:
+   - No class = Medium (default): 
+     * Titles: 24px, Content: 16px
+     * Main menu icons: 19px, text: 15px
+     * Submenu icons: 18px, text: 14px
+     * Header icons (notification, profile, toggle): 20px
+     * Dropdown content: 14px
+     * Sidebar width: 250px
+   
+   - 'font-size-large' = Large: 
+     * Titles: 26px, Content: 18px
+     * Main menu icons: 21px, text: 16px
+     * Submenu icons: 20px, text: 15px
+     * Header icons (notification, profile, toggle): 22px
+     * Dropdown content: 16px
+     * Sidebar width: 270px
+   
+   - 'font-size-xlarge' = Extra Large: 
+     * Titles: 28px, Content: 20px
+     * Main menu icons: 23px, text: 17px
+     * Submenu icons: 22px, text: 16px
+     * Header icons (notification, profile, toggle): 24px
+     * Dropdown content: 18px
+     * Sidebar width: 290px
+   
+   Example in React:
+   <Layout className={fontSize}>
+     <VerticalLayout>
+       // Your components
+     </VerticalLayout>
+   </Layout>
+   
+   Where fontSize state can be: '', 'font-size-large', or 'font-size-xlarge'
+*/
+
+
+/* Main layout - allow overflow */
+.ant-layout {
+  overflow: hidden !important;
+  height: 100vh;
+}
+
+/* Content wrapper - this is the scroll container */
+.app-scroll-content {
+  overflow-y: auto !important;
+  background-color: #fff;
+  /* overflow-x: hidden !important; */
+  height: calc(100vh - 48px);
+  position: relative;
+}
+
+/* Inner content - allow overflow for sticky to work */
+.app-scroll-content > div {
+  overflow: initial !important;
+  min-height: 100%;
+  position: relative;
+}
+
+/* ==========================================
+   STICKY HEADERS FOR ALL PAGES
+   ========================================== */
+
+.add-area-header,
+.add-line-header,
+.add-investment-header,
+.expense-transaction-header,
+.add-customer-header,
+.add-user-header,
+.add-branch-header,
+.edit-area-header,
+.edit-line-header,
+.edit-investment-header,
+.edit-expense-transaction-header,
+.edit-customer-header,
+.edit-user-header,
+.edit-branch-header,
+.view-line-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+  background-color: #fff !important;
+  padding: 16px 0 !important;
+  margin: -16px 0 16px 0 !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+/* ==========================================
+   VIEW LINE PAGE - SPECIFIC SCROLL SETUP
+   ========================================== */
+
+/* Main scrollable container */
+#scrollableDiv,
+.view-line-scrollable-div {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: calc(100vh - 180px) !important;
+  position: relative;
+}
+
+/* Branch-specific scroll containers */
+[id^="scrollableDiv-"],
+.view-line-list-container {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  max-height: 600px;
+  position: relative;
+}
+
+/* Allow infinite scroll to work */
+.infinite-scroll-component {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+/* ==========================================
+   STICKY TABS FOR ADD CUSTOMER PAGE
+   ========================================== */
+
+.custom-tabs .ant-tabs-nav {
+  position: sticky !important;
+  top: 72px !important;
+  z-index: 99 !important;
+  background-color: #fff !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+  margin-top: -1px !important;
+}
+
+.custom-tabs .ant-tabs-content-holder {
+  padding-top: 16px;
+  overflow: visible !important;
+}
+
+/* ==========================================
+   PAGE CONTAINERS - ALLOW STICKY
+   ========================================== */
+
+.page-content,
+.add-area-page-content,
+.add-line-page-content,
+.add-investment-page-content,
+.expense-transaction-page-content,
+.add-customer-page-content,
+.add-user-page-content,
+.view-line-page-content {
+  overflow: visible !important;
+  position: relative;
+  min-height: 100%;
+}
+
+/* ==========================================
+   BACK TO TOP BUTTON
+   ========================================== */
+
+.ant-float-btn {
+  z-index: 1000 !important;
+}
+
+/* ==========================================
+   SMOOTH SCROLLING
+   ========================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app-scroll-content,
+#scrollableDiv,
+.view-line-scrollable-div,
+[id^="scrollableDiv-"],
+.view-line-list-container,
+.infinite-scroll-component {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ==========================================
+   MOBILE RESPONSIVE
+   ========================================== */
+
+@media (max-width: 768px) {
+  .add-area-header,
+  .add-line-header,
+  .add-investment-header,
+  .expense-transaction-header,
+  .add-customer-header,
+  .add-user-header,
+  .add-branch-header,
+  .view-line-header {
+    top: 0 !important;
+    padding: 12px 0 !important;
+  }
+
+  .custom-tabs .ant-tabs-nav {
+    top: 60px !important;
+  }
+
+  #scrollableDiv,
+  .view-line-scrollable-div {
+    height: calc(100vh - 140px) !important;
+  }
+}
+
+/* ==========================================
+   Z-INDEX HIERARCHY
+   ========================================== */
+
+.ant-modal-wrap { z-index: 1000; }
+.ant-float-btn { z-index: 999; }
+.add-area-header,
+.add-line-header,
+.add-investment-header,
+.expense-transaction-header,
+.add-customer-header,
+.add-user-header,
+.view-line-header { z-index: 100; }
+/* ==========================================
+   GLOBAL FLOAT BUTTON STYLES
+   Apply to all FloatButton components
+   ========================================== */
+
+/* Base Float Button Styles */
+.ant-float-btn-primary .ant-float-btn-body,
+.view-area-float-button .ant-float-btn-body,
+.view-line-float-button .ant-float-btn-body,
+.list-user-float-button .ant-float-btn-body,
+.view-customer-float-button .ant-float-btn-body,
+.investment-list-float-button .ant-float-btn-body,
+.expense-type-list-float-button .ant-float-btn-body,
+.list-branch-float-button .ant-float-btn-body,
+.custom-float-button .ant-float-btn-body {
+  background-color: #28a544 !important;
+  border-color: #28a544 !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+/* Hover State */
+.ant-float-btn-primary .ant-float-btn-body:hover,
+.view-area-float-button .ant-float-btn-body:hover,
+.view-line-float-button .ant-float-btn-body:hover,
+.list-user-float-button .ant-float-btn-body:hover,
+.view-customer-float-button .ant-float-btn-body:hover,
+.investment-list-float-button .ant-float-btn-body:hover,
+.expense-type-list-float-button .ant-float-btn-body:hover,
+.list-branch-float-button .ant-float-btn-body:hover,
+.custom-float-button .ant-float-btn-body:hover {
+  background-color: #34c752 !important;
+  border-color: #34c752 !important;
+}
+
+/* Active/Pressed State */
+.ant-float-btn-primary .ant-float-btn-body:active,
+.view-area-float-button .ant-float-btn-body:active,
+.view-line-float-button .ant-float-btn-body:active,
+.list-user-float-button .ant-float-btn-body:active,
+.view-customer-float-button .ant-float-btn-body:active,
+.investment-list-float-button .ant-float-btn-body:active,
+.expense-type-list-float-button .ant-float-btn-body:active,
+.list-branch-float-button .ant-float-btn-body:active,
+.custom-float-button .ant-float-btn-body:active {
+  background-color: #229a3c !important;
+  border-color: #229a3c !important;
+}
+
+/* Icon Color - White */
+.ant-float-btn-primary .ant-float-btn-icon,
+.view-area-float-button .ant-float-btn-icon,
+.view-line-float-button .ant-float-btn-icon,
+.list-user-float-button .ant-float-btn-icon,
+.view-customer-float-button .ant-float-btn-icon,
+.investment-list-float-button .ant-float-btn-icon,
+.expense-type-list-float-button .ant-float-btn-icon,
+.list-branch-float-button .ant-float-btn-icon,
+.custom-float-button .ant-float-btn-icon {
+  color: white !important;
+}
+
+/* Antd Icon inside Float Button */
+.ant-float-btn-primary .anticon,
+.view-area-float-button .anticon,
+.view-line-float-button .anticon,
+.list-user-float-button .anticon,
+.view-customer-float-button .anticon,
+.investment-list-float-button .anticon,
+.expense-type-list-float-button .anticon,
+.list-branch-float-button .anticon,
+.custom-float-button .anticon {
+  color: white !important;
+}
+
+/* Focus State for Accessibility */
+.ant-float-btn-primary .ant-float-btn-body:focus-visible,
+.view-area-float-button .ant-float-btn-body:focus-visible,
+.view-line-float-button .ant-float-btn-body:focus-visible,
+.list-user-float-button .ant-float-btn-body:focus-visible,
+.view-customer-float-button .ant-float-btn-body:focus-visible,
+.investment-list-float-button .ant-float-btn-body:focus-visible,
+.expense-type-list-float-button .ant-float-btn-body:focus-visible,
+.list-branch-float-button .ant-float-btn-body:focus-visible,
+.custom-float-button .ant-float-btn-body:focus-visible {
+  outline: 2px solid #28a544;
+  outline-offset: 2px;
+}
+
+/* Back to Top Button (if present) */
+.ant-float-btn-default .ant-float-btn-body {
+  background-color: #28a544 !important;
+  border-color: #28a544 !important;
+}
+
+.ant-float-btn-default .ant-float-btn-body:hover {
+  background-color: #34c752 !important;
+  border-color: #34c752 !important;
+}
+
+.ant-float-btn-default .ant-float-btn-icon,
+.ant-float-btn-default .anticon {
+  color: white !important;
+}
+
+/* Ensure consistency across all float button types */
+.ant-float-btn .ant-float-btn-body {
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+/* Override any conflicting Ant Design styles */
+:where(.ant-float-btn-primary) .ant-float-btn-body {
+  background-color: #28a544 !important;
+}
+
+:where(.ant-float-btn-primary):hover .ant-float-btn-body {
+  background-color: #34c752 !important;
+}
+
+/* For FloatButton.Group if used */
+.ant-float-btn-group .ant-float-btn-primary .ant-float-btn-body {
+  background-color: #28a544 !important;
+  border-color: #28a544 !important;
+}
+
+.ant-float-btn-group .ant-float-btn-primary .ant-float-btn-body:hover {
+  background-color: #34c752 !important;
+  border-color: #34c752 !important;
+}
+.ant-float-btn-circle{
+  height: 35px;
+  width: 35px;
+  background-color: #28a544;
+}

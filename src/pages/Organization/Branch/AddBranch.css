@@ -1,0 +1,89 @@
+/* AddBranch Component Styles */
+
+.add-branch-page-content {
+  margin-right: 10px;
+  margin-left: -10px;
+  max-width: 100%;
+}
+
+.add-branch-container-fluid {
+  margin-top: -100px;
+  padding: 0;
+}
+
+.add-branch-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.add-branch-form {
+  padding: 0;
+  margin-right: -20px;
+  margin-bottom: -30px;
+}
+
+.add-branch-form-container {
+  padding: 0;
+}
+
+.add-branch-divider {
+  border-top: 2px solid #d9d9d9;
+}
+
+.add-branch-textarea {
+  resize: both;
+}
+
+.add-branch-description-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.add-branch-description-item {
+  flex-grow: 1;
+}
+
+.add-branch-minus-button {
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.add-branch-add-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-branch-add-button {
+  width: 35px;
+  height: 35px;
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+  margin-top: -15px;
+}
+
+.sticky-branch-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.add-branch-title {
+  margin: 0;
+  position: sticky;
+  z-index: 100;
+  font-size: 24px;
+  font-weight: 600;
+}

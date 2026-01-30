@@ -1,0 +1,92 @@
+/* ==========================================
+   TABLE WORD BREAK WITH HYPHENS
+   ========================================== */
+
+/* Apply word-break to all table cells */
+.table-responsive .react-table table tbody td {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  hyphens: auto !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+  max-width: 200px; /* Adjust based on your needs */
+}
+
+/* Also apply to table headers if needed */
+.table-responsive .react-table table thead th {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  hyphens: auto !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+}
+
+/* Specific word-break for long content like emails, URLs, IDs */
+.table-responsive .react-table table tbody td {
+  /* For email addresses */
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+/* Alternative: Use break-all for very long strings without natural break points */
+.table-responsive .react-table table tbody td.break-all {
+  word-break: break-all !important;
+}
+
+/* Optional: Specific column widths for better control */
+.table-responsive .react-table table {
+  table-layout: fixed; /* Enable fixed layout for consistent column widths */
+  width: 100%;
+}
+
+/* ==========================================
+   MOBILE RESPONSIVE
+   ========================================== */
+
+@media (max-width: 768px) {
+  .table-responsive .react-table table tbody td {
+    max-width: 150px; /* Smaller max-width for mobile */
+    font-size: 14px;
+  }
+  
+  .table-responsive .react-table table thead th {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+/* ==========================================
+   OPTIONAL: Prevent hyphenation for specific content
+   ========================================== */
+
+/* If you don't want hyphens for numbers, IDs, or codes */
+.table-responsive .react-table table tbody td.no-hyphen {
+  hyphens: none !important;
+  word-break: break-all !important;
+}
+
+/* Example: Apply to specific columns */
+.table-responsive .react-table table tbody td[data-column="id"],
+.table-responsive .react-table table tbody td[data-column="code"] {
+  hyphens: none !important;
+  word-break: break-all !important;
+}
+.cell-text {
+  display: block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ant-table {
+  table-layout: fixed !important;
+}
+.area-name-cell {
+  max-width: 200px;
+  white-space: normal;       /* allow multi-line */
+  word-break: break-word;    /* break long words */
+  overflow-wrap: anywhere;  /* modern browsers */
+  text-align: center;
+}

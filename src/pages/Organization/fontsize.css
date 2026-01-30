@@ -1,0 +1,938 @@
+/* ======================
+   Page Titles, Accordion Headers, and List Headers Font Sizes
+   ====================== */
+
+/* Default/Medium Size */
+/* Page Titles: 24px */
+.view-area-title,
+.view-line-title,
+.list-branch-title,
+.view-customer-title,
+.expense-list-title,
+.expense-type-list-title,
+.investment-list-title,
+.list-user-title,
+.add-customer-title,
+.add-area-title,
+.add-branch-title,
+.expense-transaction-title,
+.add-investment-title,
+.add-line-title {
+  font-size: 24px !important;
+}
+
+/* Accordion/Line/Branch Headers: 22px */
+.view-area-line-title,
+.view-line-branch-title,
+.list-branch-accordion-title,
+.view-customer-area-title,
+.expense-list-line-title,
+.expense-type-list-line-title,
+.investment-list-line-title,
+.list-user-line-title {
+  font-size: 22px !important;
+}
+
+/* List Item Headers/Names: 20px */
+.view-area-item-title,
+.view-line-item-title,
+.view-customer-item-title,
+.expense-list-item-title,
+.expense-type-list-item-title,
+.investment-list-item-title,
+.list-user-item-title {
+  font-size: 20px !important;
+}
+
+/* Badge counts: 16px */
+.view-area-badge,
+.view-line-badge-count,
+.view-customer-badge,
+.expense-list-badge,
+.expense-type-list-badge,
+.investment-list-badge,
+.list-user-badge {
+  font-size: 22px !important;
+}
+
+/* Search result tags: 14px */
+.view-area-search-results,
+.view-line-search-results,
+.view-customer-filter-info,
+.expense-list-search-results,
+.expense-type-list-search-results,
+.investment-list-search-results,
+.list-user-search-results {
+  font-size: 14px !important;
+}
+
+/* Index badges in lists: 14px */
+.view-area-index-badge,
+.view-line-index-badge,
+.view-customer-index-badge,
+.expense-list-index-badge,
+.expense-type-list-index-badge,
+.investment-list-index-badge,
+.list-user-index-badge {
+  font-size: 20px !important;
+}
+
+/* Large Size - Apply 'font-size-large' class */
+/* Page Titles: 26px */
+.font-size-large .view-area-title,
+.font-size-large .view-line-title,
+.font-size-large .list-branch-title,
+.font-size-large .view-customer-title,
+.font-size-large .expense-list-title,
+.font-size-large .expense-type-list-title,
+.font-size-large .investment-list-title,
+.font-size-large .list-user-title,
+.font-size-large .add-customer-title,
+.font-size-large .add-area-title,
+.font-size-large .add-branch-title,
+.font-size-large .expense-transaction-title,
+.font-size-large .add-investment-title,
+.font-size-large .add-line-title {
+  font-size: 26px !important;
+}
+
+/* Accordion/Line/Branch Headers: 24px */
+.font-size-large .view-area-line-title,
+.font-size-large .view-line-branch-title,
+.font-size-large .list-branch-accordion-title,
+.font-size-large .view-customer-area-title,
+.font-size-large .expense-list-line-title,
+.font-size-large .expense-type-list-line-title,
+.font-size-large .investment-list-line-title,
+.font-size-large .list-user-line-title {
+  font-size: 24px !important;
+}
+
+/* List Item Headers/Names: 22px */
+.font-size-large .view-area-item-title,
+.font-size-large .view-line-item-title,
+.font-size-large .view-customer-item-title,
+.font-size-large .expense-list-item-title,
+.font-size-large .expense-type-list-item-title,
+.font-size-large .investment-list-item-title,
+.font-size-large .list-user-item-title {
+  font-size: 22px !important;
+}
+
+/* Badge counts: 17px */
+.font-size-large .view-area-badge,
+.font-size-large .view-line-badge-count,
+.font-size-large .view-customer-badge,
+.font-size-large .expense-list-badge,
+.font-size-large .expense-type-list-badge,
+.font-size-large .investment-list-badge,
+.font-size-large .list-user-badge {
+  font-size: 24px !important;
+}
+
+/* Search result tags: 15px */
+.font-size-large .view-area-search-results,
+.font-size-large .view-line-search-results,
+.font-size-large .view-customer-filter-info,
+.font-size-large .expense-list-search-results,
+.font-size-large .expense-type-list-search-results,
+.font-size-large .investment-list-search-results,
+.font-size-large .list-user-search-results {
+  font-size: 16px !important;
+}
+
+/* Index badges in lists: 15px */
+.font-size-large .view-area-index-badge,
+.font-size-large .view-line-index-badge,
+.font-size-large .view-customer-index-badge,
+.font-size-large .expense-list-index-badge,
+.font-size-large .expense-type-list-index-badge,
+.font-size-large .investment-list-index-badge,
+.font-size-large .list-user-index-badge {
+  font-size: 22px !important;
+}
+
+/* Extra Large Size - Apply 'font-size-xlarge' class */
+/* Page Titles: 28px */
+.font-size-xlarge .view-area-title,
+.font-size-xlarge .view-line-title,
+.font-size-xlarge .list-branch-title,
+.font-size-xlarge .view-customer-title,
+.font-size-xlarge .expense-list-title,
+.font-size-xlarge .expense-type-list-title,
+.font-size-xlarge .investment-list-title,
+.font-size-xlarge .list-user-title,
+.font-size-xlarge .add-customer-title,
+.font-size-xlarge .add-area-title,
+.font-size-xlarge .add-branch-title,
+.font-size-xlarge .expense-transaction-title,
+.font-size-xlarge .add-investment-title,
+.font-size-xlarge .add-line-title {
+  font-size: 28px !important;
+}
+
+/* Accordion/Line/Branch Headers: 26px */
+.font-size-xlarge .view-area-line-title,
+.font-size-xlarge .view-line-branch-title,
+.font-size-xlarge .list-branch-accordion-title,
+.font-size-xlarge .view-customer-area-title,
+.font-size-xlarge .expense-list-line-title,
+.font-size-xlarge .expense-type-list-line-title,
+.font-size-xlarge .investment-list-line-title,
+.font-size-xlarge .list-user-line-title {
+  font-size: 26px !important;
+}
+
+/* List Item Headers/Names: 24px */
+.font-size-xlarge .view-area-item-title,
+.font-size-xlarge .view-line-item-title,
+.font-size-xlarge .view-customer-item-title,
+.font-size-xlarge .expense-list-item-title,
+.font-size-xlarge .expense-type-list-item-title,
+.font-size-xlarge .investment-list-item-title,
+.font-size-xlarge .list-user-item-title {
+  font-size: 24px !important;
+}
+
+/* Badge counts: 18px */
+.font-size-xlarge .view-area-badge,
+.font-size-xlarge .view-line-badge-count,
+.font-size-xlarge .view-customer-badge,
+.font-size-xlarge .expense-list-badge,
+.font-size-xlarge .expense-type-list-badge,
+.font-size-xlarge .investment-list-badge,
+.font-size-xlarge .list-user-badge {
+  font-size: 26px !important;
+}
+
+/* Search result tags: 16px */
+.font-size-xlarge .view-area-search-results,
+.font-size-xlarge .view-line-search-results,
+.font-size-xlarge .view-customer-filter-info,
+.font-size-xlarge .expense-list-search-results,
+.font-size-xlarge .expense-type-list-search-results,
+.font-size-xlarge .investment-list-search-results,
+.font-size-xlarge .list-user-search-results {
+  font-size: 18px !important;
+}
+
+/* Index badges in lists: 16px */
+.font-size-xlarge .view-area-index-badge,
+.font-size-xlarge .view-line-index-badge,
+.font-size-xlarge .view-customer-index-badge,
+.font-size-xlarge .expense-list-index-badge,
+.font-size-xlarge .expense-type-list-index-badge,
+.font-size-xlarge .investment-list-index-badge,
+.font-size-xlarge .list-user-index-badge {
+  font-size: 24px !important;
+}
+
+/* ======================
+   Additional UI Elements
+   ====================== */
+
+/* Modal titles */
+.view-area-search-modal-title,
+.view-line-modal-title,
+.list-branch-modal-title,
+.expense-list-modal-title,
+.expense-type-list-modal-title,
+.investment-list-modal-title,
+.list-user-search-modal-title {
+  font-size: 18px !important;
+}
+
+.font-size-large .view-area-search-modal-title,
+.font-size-large .view-line-modal-title,
+.font-size-large .list-branch-modal-title,
+.font-size-large .expense-list-modal-title,
+.font-size-large .expense-type-list-modal-title,
+.font-size-large .investment-list-modal-title,
+.font-size-large .list-user-search-modal-title {
+  font-size: 19px !important;
+}
+
+.font-size-xlarge .view-area-search-modal-title,
+.font-size-xlarge .view-line-modal-title,
+.font-size-xlarge .list-branch-modal-title,
+.font-size-xlarge .expense-list-modal-title,
+.font-size-xlarge .expense-type-list-modal-title,
+.font-size-xlarge .investment-list-modal-title,
+.font-size-xlarge .list-user-search-modal-title {
+  font-size: 20px !important;
+}
+
+/* Divider text in lists */
+.view-area-divider-text,
+.view-line-divider-text,
+.expense-list-divider-text,
+.expense-type-list-divider-text,
+.investment-list-divider-text,
+.list-user-divider-text,
+.view-customer-divider-text {
+  font-size: 13px !important;
+}
+
+.font-size-large .view-area-divider-text,
+.font-size-large .view-line-divider-text,
+.font-size-large .expense-list-divider-text,
+.font-size-large .expense-type-list-divider-text,
+.font-size-large .investment-list-divider-text,
+.font-size-large .list-user-divider-text,
+.font-size-large .view-customer-divider-text {
+  font-size: 14px !important;
+}
+
+.font-size-xlarge .view-area-divider-text,
+.font-size-xlarge .view-line-divider-text,
+.font-size-xlarge .expense-list-divider-text,
+.font-size-xlarge .expense-type-list-divider-text,
+.font-size-xlarge .investment-list-divider-text,
+.font-size-xlarge .list-user-divider-text,
+.font-size-xlarge .view-customer-divider-text {
+  font-size: 15px !important;
+}
+
+/* Button text in actions */
+.view-area-actions button,
+.view-line-actions button,
+.list-branch-actions button,
+.view-customer-actions button,
+.expense-list-actions button,
+.expense-type-list-actions button,
+.investment-list-actions button,
+.list-user-actions button {
+  font-size: 14px !important;
+}
+
+.font-size-large .view-area-actions button,
+.font-size-large .view-line-actions button,
+.font-size-large .list-branch-actions button,
+.font-size-large .view-customer-actions button,
+.font-size-large .expense-list-actions button,
+.font-size-large .expense-type-list-actions button,
+.font-size-large .investment-list-actions button,
+.font-size-large .list-user-actions button {
+  font-size: 15px !important;
+}
+
+.font-size-xlarge .view-area-actions button,
+.font-size-xlarge .view-line-actions button,
+.font-size-xlarge .list-branch-actions button,
+.font-size-xlarge .view-customer-actions button,
+.font-size-xlarge .expense-list-actions button,
+.font-size-xlarge .expense-type-list-actions button,
+.font-size-xlarge .investment-list-actions button,
+.font-size-xlarge .list-user-actions button {
+  font-size: 16px !important;
+}
+
+/* Reorder info text */
+.view-area-reorder-info,
+.view-line-reorder-info,
+.view-customer-reorder-info,
+.list-user-reorder-info {
+  font-size: 14px !important;
+}
+
+.font-size-large .view-area-reorder-info,
+.font-size-large .view-line-reorder-info,
+.font-size-large .view-customer-reorder-info,
+.font-size-large .list-user-reorder-info {
+  font-size: 15px !important;
+}
+
+.font-size-xlarge .view-area-reorder-info,
+.font-size-xlarge .view-line-reorder-info,
+.font-size-xlarge .view-customer-reorder-info,
+.font-size-xlarge .list-user-reorder-info {
+  font-size: 16px !important;
+}
+
+/* Line/Area/Branch names in reorder info */
+.view-area-line-name,
+.view-line-branch-name,
+.view-customer-area-name,
+.list-user-line-name {
+  font-size: 15px !important;
+}
+
+.font-size-large .view-area-line-name,
+.font-size-large .view-line-branch-name,
+.font-size-large .view-customer-area-name,
+.font-size-large .list-user-line-name {
+  font-size: 16px !important;
+}
+
+.font-size-xlarge .view-area-line-name,
+.font-size-xlarge .view-line-branch-name,
+.font-size-xlarge .view-customer-area-name,
+.font-size-xlarge .list-user-line-name {
+  font-size: 17px !important;
+}
+
+/* ======================
+   SwipeablePanel (Mobile List) Font Sizes
+   ====================== */
+
+/* Default/Medium */
+/* List header title: 20px */
+.custom-padding h5 {
+  font-size: 20px !important;
+}
+
+/* Index badge: 20px */
+.custom-padding > div > div:first-child {
+  font-size: 20px !important;
+}
+
+/* Large */
+/* List header title: 22px */
+.font-size-large .custom-padding h5 {
+  font-size: 22px !important;
+}
+
+/* Index badge: 22px */
+.font-size-large .custom-padding > div > div:first-child {
+  font-size: 22px !important;
+}
+
+/* Extra Large */
+/* List header title: 24px */
+.font-size-xlarge .custom-padding h5 {
+  font-size: 24px !important;
+}
+
+/* Index badge: 24px */
+.font-size-xlarge .custom-padding > div > div:first-child {
+  font-size: 24px !important;
+}
+
+/* ======================
+   Descriptions Component (Branch/Area/Line Details) Font Sizes
+   ====================== */
+
+/* Default/Medium */
+/* Description labels and content: 18px */
+.ant-descriptions-item-label,
+.ant-descriptions-item-content {
+  font-size: 18px !important;
+}
+
+/* Specific targeting for branch collapse content */
+.branch-content-container .ant-descriptions-item-label,
+.branch-content-container .ant-descriptions-item-content {
+  font-size: 18px !important;
+}
+
+/* Large */
+/* Description labels and content: 20px */
+.font-size-large .ant-descriptions-item-label,
+.font-size-large .ant-descriptions-item-content {
+  font-size: 20px !important;
+}
+
+.font-size-large .branch-content-container .ant-descriptions-item-label,
+.font-size-large .branch-content-container .ant-descriptions-item-content {
+  font-size: 20px !important;
+}
+
+/* Extra Large */
+/* Description labels and content: 22px */
+.font-size-xlarge .ant-descriptions-item-label,
+.font-size-xlarge .ant-descriptions-item-content {
+  font-size: 22px !important;
+}
+
+.font-size-xlarge .branch-content-container .ant-descriptions-item-label,
+.font-size-xlarge .branch-content-container .ant-descriptions-item-content {
+  font-size: 22px !important;
+}
+
+/* ======================
+   File Links in Descriptions
+   ====================== */
+
+/* Default/Medium: 16px */
+.file-link {
+  font-size: 16px !important;
+}
+
+/* Large: 18px */
+.font-size-large .file-link {
+  font-size: 18px !important;
+}
+
+/* Extra Large: 20px */
+.font-size-xlarge .file-link {
+  font-size: 20px !important;
+}
+
+/* ======================
+   Modal Content Font Sizes
+   ====================== */
+
+/* Default/Medium: 16px */
+.ant-modal-title {
+  font-size: 18px !important;
+}
+
+.ant-modal-body {
+  font-size: 16px !important;
+}
+
+/* Large: 18px */
+.font-size-large .ant-modal-title {
+  font-size: 19px !important;
+}
+
+.font-size-large .ant-modal-body {
+  font-size: 17px !important;
+}
+
+/* Extra Large: 20px */
+.font-size-xlarge .ant-modal-title {
+  font-size: 20px !important;
+}
+
+.font-size-xlarge .ant-modal-body {
+  font-size: 18px !important;
+}
+
+/* Alert messages in modal */
+.ant-alert-message {
+  font-size: 16px !important;
+}
+
+.ant-alert-description {
+  font-size: 14px !important;
+}
+
+.font-size-large .ant-alert-message {
+  font-size: 17px !important;
+}
+
+.font-size-large .ant-alert-description {
+  font-size: 15px !important;
+}
+
+.font-size-xlarge .ant-alert-message {
+  font-size: 18px !important;
+}
+
+.font-size-xlarge .ant-alert-description {
+  font-size: 16px !important;
+}
+
+/* ======================
+   Swipe Action Buttons (Edit/Delete) Font Sizes
+   ====================== */
+
+/* Default/Medium: 14px */
+.custom-padding + div,
+.custom-padding ~ div {
+  font-size: 14px !important;
+}
+
+/* Large: 15px */
+.font-size-large .custom-padding + div,
+.font-size-large .custom-padding ~ div {
+  font-size: 15px !important;
+}
+
+/* Extra Large: 16px */
+.font-size-xlarge .custom-padding + div,
+.font-size-xlarge .custom-padding ~ div {
+  font-size: 16px !important;
+}
+
+/* ======================
+   Divider Text Font Sizes
+   ====================== */
+
+/* Default/Medium: 18px */
+.ant-divider-inner-text {
+  font-size: 18px !important;
+}
+
+/* Large: 20px */
+.font-size-large .ant-divider-inner-text {
+  font-size: 20px !important;
+}
+
+/* Extra Large: 22px */
+.font-size-xlarge .ant-divider-inner-text {
+  font-size: 22px !important;
+}
+
+
+/* ======================
+   Reorder Page Font Sizes
+   ====================== */
+
+/* Default/Medium Size */
+
+/* Reorder Page Titles: 24px */
+.view-area-title,
+.view-line-title,
+.view-customer-title,
+.list-user-title {
+  font-size: 24px !important;
+}
+
+/* Reorder Info Labels (Selected Branch/Line/Area): 16px */
+.view-area-reorder-info,
+.view-line-reorder-info,
+.view-customer-reorder-info,
+.list-user-reorder-info {
+  font-size: 16px !important;
+}
+
+/* Reorder Info Values (Branch/Line/Area Names): 18px */
+.view-area-line-name,
+.view-line-branch-name,
+.view-customer-area-name,
+.list-user-line-name {
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+/* Table Headings: 14px with bold 600 */
+.ant-table-thead > tr > th {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+/* Table Content (Body Cells): 14px */
+.ant-table-tbody > tr > td {
+  font-size: 14px !important;
+}
+
+/* Table Input Fields: 14px */
+.ant-table-tbody > tr > td input {
+  font-size: 14px !important;
+}
+
+/* Large Size */
+
+/* Reorder Page Titles: 26px */
+.font-size-large .view-area-title,
+.font-size-large .view-line-title,
+.font-size-large .view-customer-title,
+.font-size-large .list-user-title {
+  font-size: 26px !important;
+}
+
+/* Reorder Info Labels: 17px */
+.font-size-large .view-area-reorder-info,
+.font-size-large .view-line-reorder-info,
+.font-size-large .view-customer-reorder-info,
+.font-size-large .list-user-reorder-info {
+  font-size: 17px !important;
+}
+
+/* Reorder Info Values: 19px */
+.font-size-large .view-area-line-name,
+.font-size-large .view-line-branch-name,
+.font-size-large .view-customer-area-name,
+.font-size-large .list-user-line-name {
+  font-size: 19px !important;
+}
+
+/* Table Headings: 15px with bold 600 */
+.font-size-large .ant-table-thead > tr > th {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+/* Table Content: 15px */
+.font-size-large .ant-table-tbody > tr > td {
+  font-size: 15px !important;
+}
+
+/* Table Input Fields: 15px */
+.font-size-large .ant-table-tbody > tr > td input {
+  font-size: 15px !important;
+}
+
+/* Extra Large Size */
+
+/* Reorder Page Titles: 28px */
+.font-size-xlarge .view-area-title,
+.font-size-xlarge .view-line-title,
+.font-size-xlarge .view-customer-title,
+.font-size-xlarge .list-user-title {
+  font-size: 28px !important;
+}
+
+/* Reorder Info Labels: 18px */
+.font-size-xlarge .view-area-reorder-info,
+.font-size-xlarge .view-line-reorder-info,
+.font-size-xlarge .view-customer-reorder-info,
+.font-size-xlarge .list-user-reorder-info {
+  font-size: 18px !important;
+}
+
+/* Reorder Info Values: 20px */
+.font-size-xlarge .view-area-line-name,
+.font-size-xlarge .view-line-branch-name,
+.font-size-xlarge .view-customer-area-name,
+.font-size-xlarge .list-user-line-name {
+  font-size: 20px !important;
+}
+
+/* Table Headings: 16px with bold 600 */
+.font-size-xlarge .ant-table-thead > tr > th {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+/* Table Content: 16px */
+.font-size-xlarge .ant-table-tbody > tr > td {
+  font-size: 16px !important;
+}
+
+/* Table Input Fields: 16px */
+.font-size-xlarge .ant-table-tbody > tr > td input {
+  font-size: 16px !important;
+}
+
+/* ======================
+   Switch Label Font Sizes (Slide)
+   ====================== */
+
+/* Default/Medium: 16px */
+.view-area-switch-label,
+.view-line-switch-label,
+.view-customer-switch-label,
+.list-user-switch-label {
+  font-size: 16px !important;
+}
+
+/* Large: 17px */
+.font-size-large .view-area-switch-label,
+.font-size-large .view-line-switch-label,
+.font-size-large .view-customer-switch-label,
+.font-size-large .list-user-switch-label {
+  font-size: 17px !important;
+}
+
+/* Extra Large: 18px */
+.font-size-xlarge .view-area-switch-label,
+.font-size-xlarge .view-line-switch-label,
+.font-size-xlarge .view-customer-switch-label,
+.font-size-xlarge .list-user-switch-label {
+  font-size: 18px !important;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  padding: 8px !important;
+}
+
+/* Ensure consistent padding for all font sizes */
+.font-size-large .ant-table-thead > tr > th,
+.font-size-large .ant-table-tbody > tr > td {
+  padding: 8px !important;
+}
+
+.font-size-xlarge .ant-table-thead > tr > th,
+.font-size-xlarge .ant-table-tbody > tr > td {
+  padding: 8px !important;
+}
+/* ======================
+   Modal Font Sizes
+   ====================== */
+
+/* Default/Medium Size */
+
+/* Modal Titles: 18px (center-aligned) */
+.ant-modal-title {
+  font-size: 18px !important;
+  text-align: center !important;
+}
+
+/* Modal Body Text, Form Labels: 16px */
+.ant-modal-body,
+.ant-modal-body .ant-form-item-label > label {
+  font-size: 16px !important;
+}
+
+/* Input Fields in Modals: 16px */
+.ant-modal-body input,
+.ant-modal-body .ant-input,
+.ant-modal-body .ant-input-password input {
+  font-size: 16px !important;
+}
+
+/* Select Dropdowns in Modals: 16px */
+.ant-modal-body .ant-select-selection-item,
+.ant-modal-body .ant-select-selection-placeholder {
+  font-size: 16px !important;
+}
+
+/* Modal Notes/Descriptions/Alerts: 16px */
+.ant-modal-body .ant-alert-message,
+.ant-modal-body .ant-alert-description,
+.ant-modal-body > div[style*="background"] {
+  font-size: 16px !important;
+}
+
+/* Icons in InputWithAddon: 16px */
+.ant-modal-body .ant-input-group-addon svg,
+.ant-modal-body .ant-input-prefix svg,
+.ant-modal-body .ant-input-suffix svg {
+  font-size: 16px !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+/* Icons in SelectWithAddon: 16px */
+.ant-modal-body [style*="backgroundColor"] svg {
+  font-size: 16px !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+/* Modal Button Text: 16px */
+.ant-modal-footer button {
+  font-size: 16px !important;
+}
+
+/* Large Size */
+
+/* Modal Titles: 19px */
+.font-size-large .ant-modal-title {
+  font-size: 19px !important;
+}
+
+/* Modal Body Text, Form Labels: 17px */
+.font-size-large .ant-modal-body,
+.font-size-large .ant-modal-body .ant-form-item-label > label {
+  font-size: 17px !important;
+}
+
+/* Input Fields in Modals: 17px */
+.font-size-large .ant-modal-body input,
+.font-size-large .ant-modal-body .ant-input,
+.font-size-large .ant-modal-body .ant-input-password input {
+  font-size: 17px !important;
+}
+
+/* Select Dropdowns in Modals: 17px */
+.font-size-large .ant-modal-body .ant-select-selection-item,
+.font-size-large .ant-modal-body .ant-select-selection-placeholder {
+  font-size: 17px !important;
+}
+
+/* Modal Notes/Descriptions/Alerts: 17px */
+.font-size-large .ant-modal-body .ant-alert-message,
+.font-size-large .ant-modal-body .ant-alert-description,
+.font-size-large .ant-modal-body > div[style*="background"] {
+  font-size: 17px !important;
+}
+
+/* Icons in InputWithAddon: 17px */
+.font-size-large .ant-modal-body .ant-input-group-addon svg,
+.font-size-large .ant-modal-body .ant-input-prefix svg,
+.font-size-large .ant-modal-body .ant-input-suffix svg {
+  font-size: 17px !important;
+  width: 17px !important;
+  height: 17px !important;
+}
+
+/* Icons in SelectWithAddon: 17px */
+.font-size-large .ant-modal-body [style*="backgroundColor"] svg {
+  font-size: 17px !important;
+  width: 17px !important;
+  height: 17px !important;
+}
+
+/* Modal Button Text: 17px */
+.font-size-large .ant-modal-footer button {
+  font-size: 17px !important;
+}
+
+/* Extra Large Size */
+
+/* Modal Titles: 20px */
+.font-size-xlarge .ant-modal-title {
+  font-size: 20px !important;
+}
+
+/* Modal Body Text, Form Labels: 18px */
+.font-size-xlarge .ant-modal-body,
+.font-size-xlarge .ant-modal-body .ant-form-item-label > label {
+  font-size: 18px !important;
+}
+
+/* Input Fields in Modals: 18px */
+.font-size-xlarge .ant-modal-body input,
+.font-size-xlarge .ant-modal-body .ant-input,
+.font-size-xlarge .ant-modal-body .ant-input-password input {
+  font-size: 18px !important;
+}
+
+/* Select Dropdowns in Modals: 18px */
+.font-size-xlarge .ant-modal-body .ant-select-selection-item,
+.font-size-xlarge .ant-modal-body .ant-select-selection-placeholder {
+  font-size: 18px !important;
+}
+
+/* Modal Notes/Descriptions/Alerts: 18px */
+.font-size-xlarge .ant-modal-body .ant-alert-message,
+.font-size-xlarge .ant-modal-body .ant-alert-description,
+.font-size-xlarge .ant-modal-body > div[style*="background"] {
+  font-size: 18px !important;
+}
+
+/* Icons in InputWithAddon: 18px */
+.font-size-xlarge .ant-modal-body .ant-input-group-addon svg,
+.font-size-xlarge .ant-modal-body .ant-input-prefix svg,
+.font-size-xlarge .ant-modal-body .ant-input-suffix svg {
+  font-size: 18px !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Icons in SelectWithAddon: 18px */
+.font-size-xlarge .ant-modal-body [style*="backgroundColor"] svg {
+  font-size: 18px !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Modal Button Text: 18px */
+.font-size-xlarge .ant-modal-footer button {
+  font-size: 18px !important;
+}
+
+/* ======================
+   Global InputWithAddon and SelectWithAddon Icons (Outside Modals)
+   ====================== */
+
+/* Default/Medium: 16px */
+.ant-input-group-addon svg,
+.ant-input-prefix svg,
+.ant-input-suffix svg {
+  font-size: 16px !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+/* Large: 17px */
+.font-size-large .ant-input-group-addon svg,
+.font-size-large .ant-input-prefix svg,
+.font-size-large .ant-input-suffix svg {
+  font-size: 17px !important;
+  width: 17px !important;
+  height: 17px !important;
+}
+
+/* Extra Large: 18px */
+.font-size-xlarge .ant-input-group-addon svg,
+.font-size-xlarge .ant-input-prefix svg,
+.font-size-xlarge .ant-input-suffix svg {
+  font-size: 18px !important;
+  width: 18px !important;
+  height: 18px !important;
+}

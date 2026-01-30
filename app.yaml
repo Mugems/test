@@ -1,0 +1,14 @@
+runtime: nodejs20
+instance_class: F1
+
+service: microfin-frontend
+
+handlers:
+ # serve all static files
+ - url: /(.*\..+)$
+   static_files: build/\1
+   upload: build/(.*\..+)$
+ # catch all handler to index.html
+ - url: /.*
+   static_files: build/index.html
+   upload: build/index.html

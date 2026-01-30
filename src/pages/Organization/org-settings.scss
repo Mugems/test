@@ -1,0 +1,429 @@
+.settings-parent {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    // border: 1px solid #ccc !important;
+    border-radius: 20px;
+   
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+h2, h4 {
+    color: #333;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.info-list .list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.info-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.certificate-card {
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.badge-lg {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.back-btn {
+    padding: 10px 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #007bff;
+    border-radius: 50px;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+}
+@media (max-width: 575px) {
+    .mb-xs-1 {
+        margin-bottom: 0.50rem; /* Example value for mb-1 */
+    }
+}
+
+
+
+.odd-row {
+    background-color: #ffe799e0 !important; 
+    padding: 20px 0px !important; /* Light gray for odd rows */
+}
+.even-row {
+    background-color: #ffffff !important;  /* White for even rows */
+}
+.p-datatable .p-row-odd {
+    background-color: unset !important;  /* Disable PrimeReact default odd row color */
+}
+
+/* Add padding to table cells */
+.p-datatable .p-datatable-tbody > tr > td {
+    padding: 15px 20px;
+}
+
+
+.page-content {
+    .info-card {
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .info-header {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 1rem;
+        border-bottom: 1px solid #007bff;
+    }
+    .info-body {
+        padding: 1.2rem;
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+        .detail-label {
+            font-weight: bold;
+        }
+        .detail-value {
+            text-align: right;
+        }
+    }
+    .certificate-row, .file-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.2rem;
+        .certificate-logo, .file-logo {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+.partner-card {
+    background-color: #fffaf0;
+    border: 1px solid #f5d7b3;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+        background-color: #f7d794;
+        color: #333;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .card-body {
+        padding: 0.5rem;
+    }
+
+    i {
+        color: #ffbe76;
+        font-size: 3rem;
+    }
+
+    p {
+        margin: 0.5rem 0;
+        font-size: 1rem;
+        strong {
+            font-weight: 600;
+        }
+        span {
+            font-weight: 400;
+            color: #555;
+        }
+    }
+}
+// .document-list {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 1rem;
+//     padding: 1rem;
+// }
+
+// .document-section {
+//     padding: 1rem 0;
+//     border-bottom: 1px solid #e0e0e0;
+
+//     &:last-child {
+//         border-bottom: none;
+//     }
+// }
+
+// .document-title {
+//     font-size: 1rem;
+//     font-weight: bold;
+//     margin-bottom: 0.5rem;
+//     color: #333;
+// }
+
+// .document-content {
+//     padding-left: 1rem;
+
+//     .document-row {
+//         display: flex;
+//         justify-content: space-between;
+//         margin-bottom: 0.5rem;
+
+//         .document-label {
+//             font-weight: bold;
+//             color: #555;
+//         }
+
+//         .document-value {
+//             color: #222;
+//         }
+//     }
+
+//     .document-logo-img {
+//         width: 80px;
+//         height: 80px;
+//         border-radius: 0.25rem;
+//         display: block;
+//         margin: 0 auto;
+//     }
+// }
+
+// .text-muted {
+//     color: #888;
+//     font-size: 0.875rem;
+// }
+
+.document-section {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.document-section:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.document-title {
+    font-size: 1rem;
+   
+    font-weight: bold;
+}
+
+.document-label {
+    font-weight: bold;
+}
+
+.document-value {
+    margin-left: 0.5rem;
+    color: #555;
+}
+
+.document-logo-img {
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+/* Container for iframe to maintain responsive aspect ratio */
+/* Modal styling */
+/* Modal styling for web (desktop) view */
+/* Modal styling for web (desktop) view */
+.document-modal .modal-content {
+    border-radius: 8px;
+    height: auto;
+    max-width: 80%;  /* Make the modal responsive but not full screen */
+    margin: auto;
+    padding: 20px;
+}
+
+/* Modal body with padding */
+.document-modal .modal-body {
+    padding: 0;
+}
+
+/* Responsive iframe container for desktop */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    border-radius: 8px;
+}
+
+/* Full-screen iframe */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Mobile-specific design (max-width: 767px) */
+@media (max-width: 767px) {
+    .document-modal .modal-content {
+        height: 100vh;  /* Full screen on mobile */
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal-header, .modal-footer {
+        display: none;  /* Hide modal header and footer for immersive experience */
+    }
+
+    .iframe-container {
+        height: 100vh;  /* Full screen height */
+        width: 100%;
+        background: transparent; /* Remove background to avoid black space */
+    }
+
+    .responsive-iframe {
+        border-radius: 0;  /* Clean, no rounded corners on mobile */
+    }
+
+    /* Ensuring body has full height and no scrolling */
+    .modal-body {
+        height: 100vh; /* Ensure modal body takes up full height */
+        overflow: hidden; /* Disable scrolling */
+    }
+}
+
+/* Large screens for tablets and web (above 767px) */
+@media (min-width: 768px) {
+    .document-modal .modal-content {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .iframe-container {
+        padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio */
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.edit-icon {
+    font-size: 18px;
+    &:hover {
+        color: blue;
+ 
+    }
+}
+.delete-icon {
+    font-size: 18px;
+    margin-left: 5px;
+    &:hover {
+        color: red;
+    }
+}
+ 
+.table td, .table th {
+   border: 1px solid lightgray;
+   padding: 8px; 
+   text-align: left;
+}
+  
+.table th {
+   background-color: #f0f0f0;
+   font-weight: bold;
+}
+
+.back-icon {
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 70px;
+    z-index: 10;
+    background: #f9f9f9;
+    padding-top: 15px;
+    padding-left: -19px;
+    span:hover {
+        color: blue;
+    }
+}
+
+.column-checkbox {
+    display: flex;
+    flex-direction: column;
+}
+  
+
+
+
+

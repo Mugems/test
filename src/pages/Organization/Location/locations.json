@@ -1,0 +1,362 @@
+[
+  {
+    "seq.id": 1,
+    "location_name": "Toppi vappa",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.991481728052227, 77.29539931039444],
+    "commencement_year": null,
+    "created_by": ["WorldPlaces"]
+  },
+  {
+    "seq.id": 2,
+    "location_name": "AM 2 PM",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.976459528756854, 77.30266996689572],
+    "commencement_year": null,
+    "created_by": ["General Listing"]
+  },
+  {
+    "seq.id": 3,
+    "location_name": "Hotel Sri Madhuram",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.955045609595647, 77.30187381194095],
+    "commencement_year": null,
+    "created_by": ["Approx Center"]
+  },
+  {
+    "seq.id": 4,
+    "location_name": "Greens land",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.969108146495458, 77.30251041039432],
+    "commencement_year": null,
+    "created_by": ["Approx Center"]
+  },
+  {
+    "seq.id": 5,
+    "location_name": "Nandhini mess",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.99129002817021, 77.2951791932023],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 6,
+    "location_name": "Asife biriyani",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.957044662773571, 77.30475857017643],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 7,
+    "location_name": "Hotel Buhari",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.97272216871054, 77.30123495373988],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 8,
+    "location_name": "Chellapa Hotel",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.959700214350582, 77.30997905065833],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 9,
+    "location_name": "Salem RR Biriyani",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [9.001751537162699, 77.30288574182524],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 10,
+    "location_name": "Chilly Restaurant",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.967749933425594, 77.30397451039423],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 11,
+    "location_name": "MS Dhoni mini veg hotel",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.950980998929948, 77.29753514626574],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 12,
+    "location_name": "Velan Bhavan",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.985970060501332, 77.42515829558087],
+    "commencement_year": null,
+    "created_by": ["Onefivenine"]
+  },
+  {
+    "seq.id": 13,
+    "location_name": "Namma ooru tea kadai",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.996742960976448, 77.39527881939598],
+    "commencement_year": null,
+    "created_by": ["Onefivenine"]
+  },
+  {
+    "seq.id": 14,
+    "location_name": "Rehoboth tiffin center",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.920522494243562, 77.37095288683324],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 15,
+    "location_name": "Green lemon",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.927003223023979, 77.35823792527346],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 16,
+    "location_name": "Border Barakath",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.972215220971792, 77.26262537318244],
+    "commencement_year": null,
+    "created_by": ["Onefivenine"]
+  },
+  {
+    "seq.id": 17,
+    "location_name": "Border Rahmath",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.971836509262653, 77.26201328183413],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 18,
+    "location_name": "Border Rafi",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.972237498118963, 77.261550943178],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 19,
+    "location_name": "Hotspot Grill & Shawarma",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.831982567885492, 77.37293484999388],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 20,
+    "location_name": "Manpanai sappadu",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates":[8.864888533590525, 77.35079053336983],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 21,
+    "location_name": "Marudhas hotel",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [9.17845012758195, 77.5347967935322],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 22,
+    "location_name": "VV kudil Restaurant",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.966483243433167, 77.44123947246592],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 23,
+    "location_name": "Anandha Bhavan",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.969929340007708, 77.43140372980925],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 24,
+    "location_name": "Ezhilagam Cottage",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.9540, 77.3080],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 25,
+    "location_name": "Esakki Tiger Resorts",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.9530, 77.3070],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 26,
+    "location_name": "Hotel Rathinam",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [9.01216581558625, 77.1826883029733],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 27,
+    "location_name": "Ammachi Keral Hotel",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [9.005723153229605, 77.16552216407987],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 28,
+    "location_name": "Hotel village taste",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [9.017915146920277, 77.31079137851773],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 29,
+    "location_name": "MRK hotel",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [9.049208891974393, 77.29087828997517],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 30,
+    "location_name": "Hotel spice village",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [9.063831543688703, 77.22167730501842],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 31,
+    "location_name": "Aswathy Hotel",
+    "location_type": "tiffin",
+    "District": "Tenkasi",
+    "loc_coordinates": [9.063109657989973, 77.22343773416758],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 32,
+    "location_name": "Hotel Basha",
+    "location_type": "tiffin",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.95202820535719, 77.31919677132902],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 33,
+    "location_name": "Nandhini koorai kadai",
+    "location_type": "tiffin",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.953132973624589, 77.31697154268957],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 34,
+    "location_name": "Peli parotta kadai",
+    "location_type": "tiffin",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.954135335368072, 77.31431472818184],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 35,
+    "location_name": "Monson parotta stall",
+    "location_type": "tiffin",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.9551994788872, 77.31871462362332],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 36,
+    "location_name": "Babus Hotel & Restaurant",
+    "location_type": "dinner",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.9560, 77.3095],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 37,
+    "location_name": "Shri Amurtham Paramparya Unavagam",
+    "location_type": "lunch",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.9570, 77.3110],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  },
+  {
+    "seq.id": 38,
+    "location_name": "Five Falls Resort Courtallam",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.93419, 77.27804],
+    "commencement_year": null,
+    "created_by": ["Courtallam Area"]
+  },
+  {
+    "seq.id": 39,
+    "location_name": "Kuttralam Resorts",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.9342, 77.2780],
+    "commencement_year": null,
+    "created_by": ["Approx Courtallam"]
+  },
+  {
+    "seq.id": 40,
+    "location_name": "Srishty Garden Resorts",
+    "location_type": "all",
+    "District": "Tenkasi",
+    "loc_coordinates": [8.9530, 77.3050],
+    "commencement_year": null,
+    "created_by": ["Approx"]
+  }
+]

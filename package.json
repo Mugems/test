@@ -1,0 +1,113 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "",
+    "@dnd-kit/modifiers": "",
+    "@dnd-kit/sortable": "",
+    "@react-google-maps/api": "^2.20.7",
+    "@testing-library/jest-dom": "",
+    "@testing-library/react": "",
+    "@testing-library/user-event": "",
+    "ajv": "",
+    "ajv-keywords": "",
+    "antd": "",
+    "axios": "",
+    "axios-mock-adapter": "",
+    "bootstrap": "",
+    "caniuse-lite": "",
+    "formik": "",
+    "jwt-decode": "^3.1.2",
+    "lodash": "",
+    "lucide-react": "^0.561.0",
+    "metismenujs": "",
+    "moment": "",
+    "primereact": "",
+    "react": "^18.2.0",
+    "react-data-table-component": "",
+    "react-datepicker": "",
+    "react-dom": "^18.2.0",
+    "react-drag-listview": "",
+    "react-dropzone": "",
+    "react-dual-listbox": "",
+    "react-flatpickr": "",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-input-mask": "",
+    "react-perfect-scrollbar": "",
+    "react-redux": "",
+    "react-responsive-carousel": "",
+    "react-responsive-masonry": "",
+    "react-router-dom": "",
+    "react-select": "",
+    "react-sparklines": "",
+    "react-spinners": "",
+    "react-switch": "",
+    "react-toastify": "",
+    "reactstrap": "",
+    "redux": "",
+    "redux-form": "",
+    "redux-saga": "",
+    "sass": "",
+    "simplebar-react": "",
+    "web-vitals": "",
+    "yup": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
+    "prettier": "^3.6.2",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "set GENERATE_SOURCEMAP=false && react-scripts start",
+    "build": "set GENERATE_SOURCEMAP=false && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,scss,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,css,scss,json,md}\"",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,css,scss,json,md}": [
+      "prettier --write",
+      "eslint --fix --quiet"
+    ]
+  },
+  "resolutions": {
+    "resolve-url-loader": "^5.0.0",
+    "postcss": "^8.4.0"
+  }
+  
+}

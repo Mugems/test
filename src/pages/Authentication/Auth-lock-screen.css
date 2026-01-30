@@ -1,0 +1,256 @@
+.lock-screen-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.lock-screen-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.lock-screen-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="0.5" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="0.3" fill="rgba(255,255,255,0.05)"/><circle cx="50" cy="10" r="0.4" fill="rgba(255,255,255,0.08)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+}
+
+.lock-screen-time {
+  text-align: center;
+  margin-bottom: 60px;
+  z-index: 1;
+}
+
+.time-display {
+  font-size: 72px;
+  font-weight: 200;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.date-display {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.lock-screen-profile {
+  text-align: center;
+  margin-bottom: 80px;
+  z-index: 1;
+}
+
+.profile-avatar {
+  margin-bottom: 16px;
+}
+
+.avatar-image {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  border: 4px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3) !important;
+  object-fit: cover !important;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.lock-screen-unlock {
+  z-index: 1;
+  width: 100%;
+  max-width: 350px;
+}
+
+.swipe-unlock-container {
+  width: 100%;
+  padding: 0;
+}
+
+.swipe-track {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+}
+
+.swipe-button {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  touch-action: none;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .lock-screen-bg {
+    padding: 20px;
+  }
+  
+  .time-display {
+    font-size: 64px !important;
+  }
+  
+  .date-display {
+    font-size: 16px !important;
+  }
+  
+  .profile-name {
+    font-size: 20px !important;
+  }
+  
+  .avatar-image {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  
+  .swipe-track {
+    height: 64px !important;
+    border-radius: 32px !important;
+  }
+  
+  .swipe-button {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  
+  .swipe-button i {
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .time-display {
+    font-size: 56px !important;
+  }
+  
+  .lock-screen-time {
+    margin-bottom: 40px !important;
+  }
+  
+  .lock-screen-profile {
+    margin-bottom: 60px !important;
+  }
+
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 0 0 0 rgba(255, 255, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.swipe-button:not(.dragging) {
+  animation: pulse 3s infinite;
+}
+
+.avatar-image {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes success-glow {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 212, 170, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 212, 170, 0.8), 0 0 30px rgba(0, 212, 170, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 212, 170, 0.5);
+  }
+}
+
+.swipe-track.unlocked {
+  animation: success-glow 0.6s ease-in-out;
+}
+
+.swipe-button.unlocked {
+  animation: none !important;
+  box-shadow: 0 0 15px rgba(0, 212, 170, 0.8) !important;
+}
+
+.swipe-track,
+.swipe-button,
+.swipe-track div {
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.lock-screen-container * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.swipe-button:active {
+  transform: scale(0.95);
+}
+
+.swipe-track {
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+@keyframes lockScreenFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.lock-screen-container {
+  animation: lockScreenFadeIn 0.8s ease-out;
+}
+
+.time-display {
+  animation: float 8s ease-in-out infinite;
+  animation-delay: 1s;
+}

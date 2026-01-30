@@ -1,0 +1,63 @@
+name: Final Quality Gate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Lint check
+      - name: ESLint check
+        run: |
+          echo "🔍 Running ESLint..."
+          npm run lint || (
+            echo "❌ ESLint errors found"
+            echo "👉 Fix lint issues before merging"
+            exit 1
+          )
+
+      # 5. Security check
+      - name: Security audit
+        run: |
+          echo "🔐 Running security audit..."
+          npm audit --audit-level=high || (
+            echo "❌ Security vulnerabilities detected"
+            echo "👉 Fix security issues before merging"
+            exit 1
+          )
+
+      # 6. Build verification
+      - name: Build check
+        run: |
+          echo "🏗️ Running build..."
+          npm run build || (
+            echo "❌ Build failed"
+            echo "👉 Fix build errors before merging"
+            exit 1
+          )
+
+      # 7. Success message
+      - name: All checks passed
+        if: success()
+        run: |
+          echo "✅ ALL CHECKS PASSED"
+          echo "🚀 Safe to merge"

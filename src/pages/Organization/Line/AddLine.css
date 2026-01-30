@@ -1,0 +1,40 @@
+/* AddLine Component Styles */
+
+.add-line-page-content {
+  margin-right: 10px;
+  margin-left: -10px;
+  max-width: 100%;
+}
+
+.add-line-container-fluid {
+  /* margin-top: -100px; */
+  padding: 0;
+}
+
+.add-line-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.add-line-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.add-line-form {
+  padding: 0;
+  margin-right: -20px;
+  margin-bottom: 30px;
+}
+
+.add-line-form-container {
+  padding: 0;
+}
+
+.add-line-divider {
+  border-top: 2px solid #d9d9d9;
+ 
+}

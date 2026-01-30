@@ -1,0 +1,14 @@
+.child-list{
+    padding-right: 3px !important;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+             padding: 0px !important;
+             margin: 0px !important;
+            
+        
+}
+.custom-padding{
+    padding: 10px !important;
+}
