@@ -97,3 +97,4 @@ const publicRoutes = [
 ];
 
 export { authProtectedRoutes, publicRoutes };
+//eof
