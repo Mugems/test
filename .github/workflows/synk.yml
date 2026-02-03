@@ -8,6 +8,7 @@ on:
 
 jobs:
   snyk:
+    name: Snyk Security Scan
     runs-on: ubuntu-latest
 
     steps:
