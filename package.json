@@ -16,7 +16,7 @@
     "ajv": "",
     "ajv-keywords": "",
     "antd": "",
-    "axios": "",
+    "axios": "1.13.2",
     "axios-mock-adapter": "",
     "bootstrap": "",
     "caniuse-lite": "",
