@@ -15,7 +15,7 @@
     "@testing-library/user-event": "",
     "ajv": "",
     "ajv-keywords": "",
-    "antd": "",
+    "antd": "5.29.3",
     "axios": "",
     "axios-mock-adapter": "",
     "bootstrap": "",
