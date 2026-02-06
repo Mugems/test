@@ -19,7 +19,7 @@
     "axios": "",
     "axios-mock-adapter": "",
     "bootstrap": "",
-    "caniuse-lite": "",
+    "caniuse-lite": "1.0.30001764",
     "formik": "",
     "jwt-decode": "^3.1.2",
     "lodash": "",
