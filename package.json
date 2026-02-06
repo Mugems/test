@@ -41,7 +41,7 @@
     "react-redux": "",
     "react-responsive-carousel": "",
     "react-responsive-masonry": "",
-    "react-router-dom": "",
+    "react-router-dom": "7.12.0",
     "react-select": "",
     "react-sparklines": "",
     "react-spinners": "",
